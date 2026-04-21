@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="대치동·분당 20년 경력, 지도생 전원 의치한·SKY·인서울 합격 — 국어 1등급 고정 × 0.1% 생기부 전략. 지금 광교에서.">
+<meta name="keywords" content="국어과외, 생기부관리, SKY입시, 의대합격, 수능국어1등급, 세특컨설팅, 광교과외, 수원국어과외">
+<meta property="og:title" content="국어 × 생기부 전략 | 대치동 20년 경력, 광교에서">
+<meta property="og:description" content="지도생 전원 합격 — 대치동·분당 20년 경력. 국어 1등급 고정 × 아무도 흉내 낼 수 없는 생기부.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FFFFFF">
+<title>국어 × 생기부 전략 | 대치동 20년, 지도생 전원 합격</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "국어 × 생기부 전략",
+  "description": "대치동·분당 20년 경력, 지도생 전원 의치한·SKY·인서울 합격.",
+  "telephone": "010-8318-1700",
+  "areaServed": "KR"
+}
+</script>
+
+<style>
+/* ═══════════════════════════════════════════════
+   APEX DESIGN SYSTEM — 한국 봄꽃 × 스틸 블루
+   짝수: 봄꽃 팔렛트 12 + 벚꽃 7  |  홀수: 스틸 블루 7
+   바탕: 퓨어 화이트 #FFFFFF
+   + LGU+ SHELL ARCHITECTURE (path / postParam / tabId / sortBaseCd / pageNo)
+═══════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; -webkit-text-size-adjust: 100%; }
+
+:root {
+  /* ═══ PURE WHITE BASE ═══ */
+  --paper:   #FFFFFF;
+  --paper2:  #FFFFFF;
+  --paper3:  #FAFAFA;
+  --paper4:  #F5F5F5;
+  --ink:     #1A1A2E;
+  --ink2:    #16213E;
+  --ink3:    rgba(26,26,46,0.62);
+  --ink4:    rgba(26,26,46,0.36);
+
+  /* ═══════════════════════════════════════════
+     홀수 — STEEL BLUE PALETTE · 스틸 블루 7
+     텍스트 · 외곽 라인 (홀수 번호 요소에 사용)
+  ═══════════════════════════════════════════ */
+  --sb-01: #B0C4DE; --sb-01t: rgba(176,196,222,0.18); /* Light Steel     라이트 스틸    */
+  --sb-02: #7B96B2; --sb-02t: rgba(123,150,178,0.18); /* Mid Steel       미드 스틸      */
+  --sb-03: #4F7196; --sb-03t: rgba(79,113,150,0.18);  /* Classic Steel   클래식 스틸    */
+  --sb-04: #2E5D8E; --sb-04t: rgba(46,93,142,0.18);   /* Deep Steel      딥 스틸        */
+  --sb-05: #1A4678; --sb-05t: rgba(26,70,120,0.18);   /* Navy Steel      네이비 스틸    */
+  --sb-06: #0D2E5A; --sb-06t: rgba(13,46,90,0.18);    /* Dark Steel      다크 스틸      */
+  --sb-07: #061B3A; --sb-07t: rgba(6,27,58,0.18);     /* Abyss Steel     심해 스틸      */
+
+  /* ODD accent = steel blue mid tone */
+  --odd-accent:  #4F7196;
+  --odd-accent2: #7B96B2;
+  --odd-border:  rgba(79,113,150,0.28);
+  --odd-text:    #2E5D8E;
+
+  /* ═══════════════════════════════════════════
+     짝수 — KOREAN SPRING FLOWER PALETTE · 봄꽃 12 + 벚꽃 7 = 19색
+     텍스트 · 외곽 라인 (짝수 번호 요소에 사용)
+  ═══════════════════════════════════════════ */
+  /* ── 봄꽃 12 (선명한 한국 봄꽃) ── */
+  --sp-01: #FF2D6B; --sp-01t: rgba(255,45,107,0.15);  /* 진달래 Azalea        */
+  --sp-02: #FF0080; --sp-02t: rgba(255,0,128,0.15);   /* 철쭉 Royal Azalea    */
+  --sp-03: #E8003D; --sp-03t: rgba(232,0,61,0.15);    /* 빨간 동백 Camellia   */
+  --sp-04: #FF6B00; --sp-04t: rgba(255,107,0,0.15);   /* 금잔화 Marigold      */
+  --sp-05: #FF9E00; --sp-05t: rgba(255,158,0,0.15);   /* 개나리 Forsythia     */
+  --sp-06: #FFD700; --sp-06t: rgba(255,215,0,0.15);   /* 산수유 Cornus        */
+  --sp-07: #C800FF; --sp-07t: rgba(200,0,255,0.15);   /* 등나무 Wisteria      */
+  --sp-08: #8B00CC; --sp-08t: rgba(139,0,204,0.15);   /* 라일락 Lilac         */
+  --sp-09: #FF4499; --sp-09t: rgba(255,68,153,0.15);  /* 복사꽃 Peach Blossom */
+  --sp-10: #FF8FAB; --sp-10t: rgba(255,143,171,0.15); /* 분홍 목련 Pink Magnolia */
+  --sp-11: #E84393; --sp-11t: rgba(232,67,147,0.15);  /* 모란 Tree Peony      */
+  --sp-12: #FF5C8D; --sp-12t: rgba(255,92,141,0.15);  /* 장미 Rose            */
+  /* ── 벚꽃 7 (Cherry Blossom grades) ── */
+  --cb-01: #FFE4ED; --cb-01t: rgba(255,228,237,0.18); /* 연백 벚꽃 Palest Petal  */
+  --cb-02: #FFCCD6; --cb-02t: rgba(255,204,214,0.18); /* 흰 벚꽃 White Petal     */
+  --cb-03: #FFB3C1; --cb-03t: rgba(255,179,193,0.18); /* 연분홍 Blush            */
+  --cb-04: #FF85A1; --cb-04t: rgba(255,133,161,0.18); /* 분홍 벚꽃 Pink Petal    */
+  --cb-05: #FF4D6D; --cb-05t: rgba(255,77,109,0.18);  /* 진분홍 Deep Pink        */
+  --cb-06: #C9184A; --cb-06t: rgba(201,24,74,0.18);   /* 진홍 Crimson Petal      */
+  --cb-07: #800F2F; --cb-07t: rgba(128,15,47,0.18);   /* 흑홍 Dark Rose          */
+
+  /* EVEN accent = 벚꽃 + 봄꽃 representative */
+  --even-accent:  #FF2D6B;
+  --even-accent2: #FFB3C1;
+  --even-border:  rgba(255,45,107,0.30);
+  --even-text:    #C9184A;
+
+  /* ═══ PRIMARY ACCENTS (홀수 기본값 = steel blue) ═══ */
+  --accent:  #4F7196;
+  --accent2: #7B96B2;
+  --accent-d:#2E5D8E;
+
+  /* ═══ SECONDARY / SEMANTIC ═══ */
+  --red:     #E8003D;
+  --red-d:   #C9184A;
+  --gold:    #FF9E00;
+  --gold2:   #FFD700;
+  --green:   #2D8C4E;
+
+  /* ═══ BORDERS ═══ */
+  --border:  rgba(26,26,46,0.10);
+  --border2: rgba(26,26,46,0.06);
+  --border3: rgba(26,26,46,0.04);
+
+  /* ═══ DARK SECTIONS — deep steel navy ═══ */
+  --dk:      #061B3A;
+  --dk2:     #0D2E5A;
+  --dk3:     #1A4678;
+  --dkt1:    #F8FAFF;
+  --dkt2:    rgba(248,250,255,0.68);
+  --dkt3:    rgba(248,250,255,0.32);
+  --dkb:     rgba(248,250,255,0.08);
+
+  --muted:   #5C6B82;
+  --muted2:  #7B8FA6;
+  --serif:      'Playfair Display','Noto Serif KR', Georgia, serif;
+  --body-serif: 'Cormorant Garamond','Noto Serif KR', Georgia, serif;
+  --sans:       'Syne','Noto Sans KR', sans-serif;
+  --mono:       'JetBrains Mono', 'Courier New', monospace;
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-state:  cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --max-w: 1120px;
+  --h-pad: clamp(24px,5vw,72px);
+  --s-pad: clamp(80px,10vh,130px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  .rv { opacity: 1 !important; transform: none !important; }
+}
+
+/* ══════════════════════════════════════════════════════════
+   짝수 / 홀수 컬러 시스템
+   EVEN  → 한국 봄꽃 12 + 벚꽃 7 (텍스트·외곽선)
+   ODD   → 스틸 블루 7 (텍스트·외곽선)
+   배경  → 퓨어 화이트 #FFFFFF
+══════════════════════════════════════════════════════════ */
+
+/* ── 짝수 요소 (nth-child even / .even) ── */
+/* stat-box, flow-step, snap-card, prog-card, case-card, mx-cell, n-card, acc-item */
+.stat-box:nth-child(even),
+.flow-step:nth-child(even),
+.snap-card:nth-child(even),
+.prog-card:nth-child(even),
+.case-card:nth-child(even),
+.mx-cell:nth-child(even),
+.n-card:nth-child(even),
+.acc-item:nth-child(even),
+.strat-row:nth-child(even),
+.strat-pill:nth-child(even),
+.s-stat:nth-child(even),
+
+.stat-box:nth-child(even) .sbn,
+.stat-box:nth-child(even) .acc,
+.flow-step:nth-child(even) .fs-title,
+.flow-step:nth-child(even) .fs-phase,
+.snap-card:nth-child(even) .sc-title,
+.prog-card:nth-child(even) .pc-title,
+.case-card:nth-child(even) .cc-ttl,
+.mx-cell:nth-child(even) .mx-dept,
+.n-card:nth-child(even) .n-card-ttl,
+.acc-item:nth-child(even) .acc-trigger,
+.s-stat:nth-child(even) .s-num {
+  color: var(--even-text) !important;
+}
+.stat-box:nth-child(even),
+.flow-step:nth-child(even),
+.snap-card:nth-child(even),
+.n-card:nth-child(even) {
+  border-left-color: var(--sp-01) !important;
+  border-top-color:  var(--cb-05) !important;
+}
+
+/* Cycle spring flower colors across even items */
+.stat-box:nth-child(2)  { border-color: var(--sp-01) !important; }
+.stat-box:nth-child(4)  { border-color: var(--sp-03) !important; }
+.stat-box:nth-child(6)  { border-color: var(--sp-05) !important; }
+.stat-box:nth-child(8)  { border-color: var(--sp-07) !important; }
+.stat-box:nth-child(10) { border-color: var(--sp-09) !important; }
+.stat-box:nth-child(12) { border-color: var(--sp-11) !important; }
+
+.flow-step:nth-child(2)  { border-left-color: var(--sp-01) !important; }
+.flow-step:nth-child(4)  { border-left-color: var(--sp-03) !important; }
+.flow-step:nth-child(6)  { border-left-color: var(--sp-05) !important; }
+.flow-step:nth-child(8)  { border-left-color: var(--sp-07) !important; }
+.flow-step:nth-child(10) { border-left-color: var(--sp-09) !important; }
+
+.snap-card:nth-child(2) { border-top-color: var(--cb-05) !important; }
+.snap-card:nth-child(4) { border-top-color: var(--sp-01) !important; }
+.snap-card:nth-child(6) { border-top-color: var(--sp-03) !important; }
+.snap-card:nth-child(8) { border-top-color: var(--sp-07) !important; }
+
+.mx-cell:nth-child(2) { border-top-color: var(--sp-01) !important; }
+.mx-cell:nth-child(4) { border-top-color: var(--sp-03) !important; }
+.mx-cell:nth-child(6) { border-top-color: var(--sp-05) !important; }
+
+/* ── 홀수 요소 (nth-child odd / .odd) ── */
+.stat-box:nth-child(odd),
+.flow-step:nth-child(odd),
+.snap-card:nth-child(odd),
+.prog-card:nth-child(odd),
+.case-card:nth-child(odd),
+.mx-cell:nth-child(odd),
+.n-card:nth-child(odd),
+.acc-item:nth-child(odd),
+.strat-row:nth-child(odd),
+.strat-pill:nth-child(odd),
+.s-stat:nth-child(odd),
+
+.stat-box:nth-child(odd) .sbn,
+.stat-box:nth-child(odd) .acc,
+.flow-step:nth-child(odd) .fs-title,
+.flow-step:nth-child(odd) .fs-phase,
+.snap-card:nth-child(odd) .sc-title,
+.prog-card:nth-child(odd) .pc-title,
+.case-card:nth-child(odd) .cc-ttl,
+.mx-cell:nth-child(odd) .mx-dept,
+.n-card:nth-child(odd) .n-card-ttl,
+.acc-item:nth-child(odd) .acc-trigger,
+.s-stat:nth-child(odd) .s-num {
+  color: var(--odd-text) !important;
+}
+.stat-box:nth-child(odd),
+.flow-step:nth-child(odd),
+.snap-card:nth-child(odd),
+.n-card:nth-child(odd) {
+  border-left-color: var(--sb-03) !important;
+  border-top-color:  var(--sb-04) !important;
+}
+
+/* Cycle steel blue shades across odd items */
+.stat-box:nth-child(1) { border-color: var(--sb-01) !important; }
+.stat-box:nth-child(3) { border-color: var(--sb-03) !important; }
+.stat-box:nth-child(5) { border-color: var(--sb-05) !important; }
+.stat-box:nth-child(7) { border-color: var(--sb-07) !important; }
+.stat-box:nth-child(9) { border-color: var(--sb-02) !important; }
+
+.flow-step:nth-child(1) { border-left-color: var(--sb-02) !important; }
+.flow-step:nth-child(3) { border-left-color: var(--sb-03) !important; }
+.flow-step:nth-child(5) { border-left-color: var(--sb-04) !important; }
+.flow-step:nth-child(7) { border-left-color: var(--sb-05) !important; }
+
+.snap-card:nth-child(1) { border-top-color: var(--sb-02) !important; }
+.snap-card:nth-child(3) { border-top-color: var(--sb-03) !important; }
+.snap-card:nth-child(5) { border-top-color: var(--sb-04) !important; }
+.snap-card:nth-child(7) { border-top-color: var(--sb-05) !important; }
+
+.mx-cell:nth-child(1) { border-top-color: var(--sb-02) !important; }
+.mx-cell:nth-child(3) { border-top-color: var(--sb-03) !important; }
+.mx-cell:nth-child(5) { border-top-color: var(--sb-04) !important; }
+
+/* ── 배경 섹션: 짝수 섹션 봄꽃, 홀수 섹션 스틸 블루 ── */
+section:nth-of-type(even) { background: #FFFFFF; }
+section:nth-of-type(odd)  { background: #FFFFFF; }
+
+/* flow-step active: use spring flower accent */
+.flow-step.active .fs-num {
+  background: var(--sp-03) !important;
+  border-color: var(--sp-03) !important;
+  box-shadow: 0 4px 16px rgba(232,0,61,0.25) !important;
+}
+.flow-step.active .fs-phase { color: var(--sp-03) !important; }
+.flow-step.active .fs-title em { color: var(--sp-01) !important; }
+
+/* ── anchor nav 짝수/홀수 active ── */
+.an-item:nth-child(even).active { color: var(--even-text); border-bottom-color: var(--sp-01); }
+.an-item:nth-child(odd).active  { color: var(--odd-text);  border-bottom-color: var(--sb-03); }
+
+/* ── progress bar ── */
+#progress-bar { background: linear-gradient(90deg, var(--sb-03), var(--sp-01)); }
+
+/* ══════════════════════════════════════════════════════
+   전면 컬러 보강 — 흰 배경 위 흰 텍스트 전면 수정
+   + 봄꽃 × 스틸블루 색상 전체 요소에 풍부하게 적용
+══════════════════════════════════════════════════════ */
+
+/* ── HERO 배경: 순백 + 봄꽃 그라데이션 ── */
+.hero {
+  background: linear-gradient(135deg, #fff 0%, #FFF0F5 55%, #FFE4ED 100%) !important;
+}
+.h-eyebrow { color: var(--sb-03) !important; }
+.h-eyebrow-line { background: rgba(79,113,150,.4) !important; }
+.h1 em { color: var(--sp-01) !important; }
+
+/* ── STAT BOX: 봄꽃/스틸블루 교차 ── */
+.stat-box:nth-child(1) { border-top: 3px solid var(--sb-02) !important; background: #F8FBFF !important; }
+.stat-box:nth-child(2) { border-top: 3px solid var(--sp-01) !important; background: #FFF5F8 !important; }
+.stat-box:nth-child(3) { border-top: 3px solid var(--sb-04) !important; background: #F0F5FA !important; }
+.stat-box:nth-child(4) { border-top: 3px solid var(--sp-03) !important; background: #FFF0F4 !important; }
+.stat-box:nth-child(1) .sbn, .stat-box:nth-child(3) .sbn { color: var(--sb-04) !important; }
+.stat-box:nth-child(2) .sbn, .stat-box:nth-child(4) .sbn { color: var(--sp-03) !important; }
+.stat-box:nth-child(1) .acc, .stat-box:nth-child(3) .acc { color: var(--sb-03) !important; }
+.stat-box:nth-child(2) .acc, .stat-box:nth-child(4) .acc { color: var(--sp-01) !important; }
+
+/* ── STATS BAND: 다크 배경이지만 색상 보강 ── */
+.stats-band { background: var(--sb-07) !important; }
+.s-num { color: #FFFFFF !important; }
+.s-num .acc { color: var(--cb-03) !important; }
+.s-lbl { color: rgba(255,255,255,0.55) !important; }
+.s-lbl strong { color: rgba(255,255,255,0.85) !important; }
+
+/* 홀수 s-stat: 스틸블루 톤 / 짝수: 봄꽃 톤 숫자 */
+.s-stat:nth-child(1) .s-num { color: var(--sb-01) !important; }
+.s-stat:nth-child(2) .s-num { color: var(--cb-03) !important; }
+.s-stat:nth-child(3) .s-num { color: var(--sb-01) !important; }
+.s-stat:nth-child(4) .s-num { color: var(--cb-04) !important; }
+
+/* ── LABELS: 봄꽃/스틸블루 교차 ── */
+.label-blue  { color: var(--sb-03) !important; }
+.label-gold  { color: var(--sp-05) !important; }
+.label-red   { color: var(--sp-03) !important; }
+.label-green { color: var(--sb-04) !important; }
+.label-dk-ghost { color: var(--sb-02) !important; }
+
+/* ── S-H2 em 강조색 ── */
+.s-h2 em { color: var(--sp-01) !important; }
+.s-h2-wh { color: #FFFFFF !important; }
+.s-h2-wh em { color: var(--cb-03) !important; }
+.s-lead-wh { color: rgba(255,255,255,0.78) !important; }
+.s-lead-wh strong { color: #FFFFFF !important; }
+
+/* ── PULL QUOTE: 봄꽃 보더 ── */
+.pull-quote { border-left-color: var(--sp-01) !important; }
+.pq-text em { color: var(--sp-01) !important; }
+
+/* ── DATA BOX: 스틸블루 상단 라인 ── */
+.data-box { border-top-color: var(--sb-03) !important; background: #F5F8FC !important; }
+.db-num .acc { color: var(--sb-03) !important; }
+.db-num .red { color: var(--sp-03) !important; }
+
+/* ── FAIL LIST: 번호 색상 ── */
+.fi-num { color: var(--sp-01) !important; }
+
+/* ── HIGHLIGHT BOX: 스틸블루 다크 배경 ── */
+.highlight-box { background: var(--sb-06) !important; }
+.highlight-box::before { color: var(--cb-04) !important; }
+.hb-text { color: #FFFFFF !important; }
+.hb-text strong { color: var(--cb-03) !important; }
+
+/* ── STRAT ROW: 번호 봄꽃/스틸블루 교차 ── */
+.strat-row:nth-child(odd)  .sr-num { color: var(--sb-03) !important; }
+.strat-row:nth-child(even) .sr-num { color: var(--sp-01) !important; }
+.strat-row:nth-child(odd)  .sr-title em { color: var(--sb-03) !important; }
+.strat-row:nth-child(even) .sr-title em { color: var(--sp-01) !important; }
+.strat-row:nth-child(odd)  { border-left: 3px solid var(--sb-02); padding-left: 20px; }
+.strat-row:nth-child(even) { border-left: 3px solid var(--cb-04); padding-left: 20px; }
+
+/* ── CASE CARDS (다크 배경, dkt 색상 유지 OK) ── */
+.case-card.c1 { border-top-color: var(--cb-05) !important; }
+.case-card.c2 { border-top-color: var(--sb-02) !important; }
+.case-card.c3 { border-top-color: var(--sp-05) !important; }
+.c-num { color: rgba(255,255,255,0.45) !important; }
+.c-title { color: #FFFFFF !important; }
+.c-body { color: rgba(255,255,255,0.72) !important; }
+.c-body strong { color: var(--cb-03) !important; }
+.c-tag { color: rgba(255,255,255,0.38) !important; border-color: rgba(255,255,255,0.12) !important; }
+
+/* ── PROG CARD: 봄꽃/스틸블루 border-top 교차 ── */
+.prog-card:nth-child(1) { border-top: 3px solid var(--sb-03) !important; background: #F8FBFF !important; }
+.prog-card:nth-child(2) { border-top: 3px solid var(--sp-01) !important; background: #FFF5F8 !important; }
+.prog-card:nth-child(3) { border-top: 3px solid var(--sb-04) !important; background: #F0F5FA !important; }
+.prog-card:nth-child(4) { border-top: 3px solid var(--sp-03) !important; background: #FFF0F4 !important; }
+.prog-card:nth-child(odd)  .pc-title { color: var(--sb-04) !important; }
+.prog-card:nth-child(even) .pc-title { color: var(--sp-03) !important; }
+
+/* ── TAXONOMY / TX: 스틸블루 테두리 ── */
+.tx-th { color: var(--sb-04) !important; }
+
+/* ── MATRIX (다크 배경): 색상 보강 ── */
+.mx-cell:nth-child(1) { border-top-color: var(--sb-02) !important; }
+.mx-cell:nth-child(2) { border-top-color: var(--sp-01) !important; }
+.mx-cell:nth-child(3) { border-top-color: var(--cb-05) !important; }
+.mx-kicker { color: rgba(255,255,255,0.38) !important; }
+.mx-dept { color: #FFFFFF !important; }
+.mx-dept em { color: var(--cb-03) !important; }
+.mx-pt { color: rgba(255,255,255,0.70) !important; }
+.mx-pt strong { color: #FFFFFF !important; }
+.mx-insight { color: rgba(255,255,255,0.38) !important; }
+.mx-insight-dot { background: var(--cb-04) !important; }
+
+/* ── FLOW STEPS: 홀수/짝수 번호 색 ── */
+.fs-num { color: var(--sb-03) !important; }
+.flow-step:nth-child(even) .fs-num { color: var(--sp-01) !important; }
+.flow-step:nth-child(even) .fs-phase { color: var(--sp-01) !important; }
+.flow-step:nth-child(odd)  .fs-phase { color: var(--sb-03) !important; }
+.flow-step:nth-child(even) .fs-title em { color: var(--sp-01) !important; }
+.flow-step:nth-child(odd)  .fs-title em { color: var(--sb-03) !important; }
+
+/* ── SNAP CARDS (다크 배경) ── */
+.snap-card.s1 { border-top-color: var(--sp-03) !important; }
+.snap-card.s2 { border-top-color: var(--sb-02) !important; }
+.snap-card.s3 { border-top-color: var(--sp-05) !important; }
+.snap-card.s4 { border-top-color: var(--sb-04) !important; }
+.sc-year { color: rgba(255,255,255,0.38) !important; }
+.sc-title { color: #FFFFFF !important; }
+.sc-body { color: rgba(255,255,255,0.70) !important; }
+.sc-body strong { color: var(--cb-03) !important; }
+.sc-tag { color: rgba(255,255,255,0.38) !important; border-color: rgba(255,255,255,0.12) !important; }
+
+/* ── N-CARD (흰 배경): 태그 색상 ── */
+.n-card-tag { color: var(--sb-03) !important; }
+.n-card.featured .n-card-tag { color: var(--sp-01) !important; }
+.n-card:nth-child(odd)  { border-left-color: var(--sb-03) !important; }
+.n-card:nth-child(even) { border-left-color: var(--sp-01) !important; }
+
+/* ── INTRO STRIP ── */
+.intro-label { color: var(--sp-01) !important; }
+.intro-text { color: rgba(255,255,255,0.70) !important; }
+
+/* ── ROAD MAP 섹션 step tags ── */
+.fs-tag { border-color: var(--sb-02) !important; color: var(--sb-03) !important; }
+.flow-step:nth-child(even) .fs-tag { border-color: var(--sp-01) !important; color: var(--sp-01) !important; }
+
+/* ── IC-QUOTE (다크 배경) ── */
+.ic-label { color: var(--cb-04) !important; }
+.ic-quote { color: #FFFFFF !important; }
+.ic-quote strong { color: var(--cb-03) !important; }
+.ic-attr { color: rgba(255,255,255,0.38) !important; }
+
+/* ── STRAT PILL ── */
+.sp-title { color: var(--ink) !important; }
+.strat-pill:nth-child(odd)  { border-left: 3px solid var(--sb-03) !important; }
+.strat-pill:nth-child(even) { border-left: 3px solid var(--sp-01) !important; }
+.strat-pill:nth-child(odd)  .sp-title { color: var(--sb-04) !important; }
+.strat-pill:nth-child(even) .sp-title { color: var(--sp-03) !important; }
+
+/* ── CLOSING CTA: accent 색상 ── */
+.cc-h2 em { color: var(--sp-01) !important; }
+.cc-eyebrow { color: var(--sb-03) !important; }
+
+/* ── FOOTER: 텍스트 가시성 확보 ── */
+.foot-hl { color: #FFFFFF !important; }
+.foot-hl em { color: var(--cb-03) !important; }
+.foot-copy { color: rgba(255,255,255,0.28) !important; }
+.foot-links a { color: rgba(255,255,255,0.38) !important; }
+.foot-links a:hover { color: rgba(255,255,255,0.85) !important; }
+
+/* ── LGU+ ANCHOR NAV ── */
+.an-item { color: var(--sb-03) !important; }
+.an-item.active { color: var(--sp-01) !important; border-bottom-color: var(--sp-01) !important; }
+
+/* ── ACC TRIGGER ── */
+.acc-item:nth-child(odd)  .acc-trigger { color: var(--sb-04) !important; }
+.acc-item:nth-child(even) .acc-trigger { color: var(--sp-03) !important; }
+
+/* ── NM (비문학) 섹션 다크 배경 ── */
+.nm-title { color: #FFFFFF !important; }
+.nm-meta-num { color: #FFFFFF !important; }
+.nm-meta-label { color: rgba(255,255,255,0.45) !important; }
+
+/* ── SR TAGS ── */
+.sr-tag:nth-child(odd)  { border-color: var(--sb-02) !important; color: var(--sb-03) !important; }
+.sr-tag:nth-child(even) { border-color: rgba(255,45,107,.3) !important; color: var(--sp-01) !important; }
+
+/* ── BUTTON PRIMARY: 봄꽃 ── */
+.btn-primary { background: var(--sp-03) !important; }
+.btn-primary:hover { background: var(--sp-01) !important; }
+
+/* ── TICKER ── */
+.t-item strong { color: var(--sp-01) !important; }
+
+/* ── 로고 ── */
+.h-logo span { color: var(--sp-01) !important; }
+.h-logo-dot  { background: var(--sp-01) !important; }
+.foot-logo-dot { background: var(--sp-01) !important; }
+
+
+
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  opacity: 0.028;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+  animation: grain-shift 0.8s steps(1) infinite;
+}
+@keyframes grain-shift {
+  0%{transform:translate(0,0)}12%{transform:translate(-2%,-3%)}24%{transform:translate(3%,1%)}
+  37%{transform:translate(-1%,4%)}50%{transform:translate(2%,-2%)}62%{transform:translate(-3%,2%)}
+  75%{transform:translate(1%,-4%)}88%{transform:translate(-2%,3%)}
+}
+
+.skip-link {
+  position: absolute; top: -100px; left: 16px; z-index: 999999;
+  padding: 10px 20px; background: var(--accent); color: #fff;
+  font-family: var(--mono); font-size: 12px; text-decoration: none;
+  border-radius: 0 0 4px 4px; transition: top .2s;
+}
+.skip-link:focus { top: 0; }
+
+body {
+  font-family: var(--body-serif);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.75;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  cursor: none;
+  overflow-x: hidden;
+}
+@media (max-width: 768px) { body { cursor: auto; } }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+#progress-bar {
+  position: fixed; top: 0; left: 0; height: 2px;
+  background: var(--accent); z-index: 99999;
+  width: 0%; transition: width .06s linear; pointer-events: none;
+}
+
+#cur-dot {
+  position: fixed; width: 6px; height: 6px;
+  background: var(--accent); border-radius: 50%;
+  pointer-events: none; z-index: 99998;
+  transform: translate(-50%,-50%);
+  transition: transform .08s, opacity .3s;
+}
+#cur-ring {
+  position: fixed; width: 32px; height: 32px;
+  border: 1px solid rgba(79,113,150,.38); border-radius: 50%;
+  pointer-events: none; z-index: 99997;
+  transform: translate(-50%,-50%);
+  transition: width .3s var(--ease-out), height .3s var(--ease-out), border-color .3s;
+}
+.cursor-hover #cur-dot { transform: translate(-50%,-50%) scale(2.2); }
+.cursor-hover #cur-ring { width: 52px; height: 52px; border-color: rgba(255,45,107,.5); }
+@media (max-width: 768px) { #cur-dot, #cur-ring { display: none !important; } }
+
+#loader {
+  position: fixed; inset: 0; z-index: 100000;
+  background: var(--ink);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+#loader::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 50% 50% at 30% 40%, rgba(79,113,150,.18), transparent),
+              radial-gradient(ellipse 40% 40% at 75% 65%, rgba(255,45,107,.10), transparent);
+}
+.ld-z { position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 24px; }
+.ld-kicker { font-family:var(--mono);font-size:9px;letter-spacing:.36em;text-transform:uppercase;color:rgba(242,238,230,.28);margin-bottom:18px;overflow:hidden; }
+.ld-kicker-i { animation: slideUp .7s var(--ease-out) .3s both; }
+.ld-title { font-family:var(--serif);font-size:clamp(32px,5.5vw,66px);font-weight:900;color:var(--dkt1);letter-spacing:-.05em;line-height:1.05;margin-bottom:10px;overflow:hidden; }
+.ld-title-i { animation: slideUp .9s var(--ease-out) .55s both; }
+.ld-title em { font-style:italic;color:var(--cb-05); }
+.ld-sub { font-family:var(--body-serif);font-size:clamp(13px,1.4vw,16px);color:rgba(242,238,230,.3);margin-bottom:56px;overflow:hidden; }
+.ld-sub-i { animation: slideUp .8s var(--ease-out) .75s both; }
+.ld-bar-track { width:260px;height:1px;background:rgba(242,238,230,.08);margin-bottom:14px;position:relative; }
+.ld-bar-fill { height:1px;background:linear-gradient(90deg,var(--sb-03),var(--sp-01));box-shadow:0 0 10px rgba(232,0,61,.4);transition:width .07s linear;position:relative; }
+.ld-bar-fill::after { content:'';position:absolute;right:-1px;top:-2px;width:5px;height:5px;border-radius:50%;background:var(--sp-01);box-shadow:0 0 8px 2px rgba(255,45,107,.9); }
+.ld-count { font-family:var(--mono);font-size:10px;color:rgba(242,238,230,.22);letter-spacing:.2em; }
+#loader.hide { animation: loaderExit .9s var(--ease-out) forwards; }
+@keyframes loaderExit { 0%{transform:translateY(0);opacity:1}30%{transform:translateY(-6px);opacity:1}100%{transform:translateY(-100%);opacity:0} }
+@keyframes slideUp { from{transform:translateY(110%)}to{transform:translateY(0)} }
+
+/* ── HEADER ── */
+header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 5000;
+  background: rgba(8,8,16,.96);
+  backdrop-filter: blur(16px) saturate(180%);
+  height: 52px; padding: 0 var(--h-pad);
+  display: flex; align-items: center; justify-content: space-between;
+  border-bottom: 1px solid rgba(242,238,230,.06);
+}
+.h-logo { font-family:var(--sans);font-size:10px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:rgba(242,238,230,.9);display:flex;align-items:center;gap:10px;text-decoration:none; }
+.h-logo-dot { width:5px;height:5px;background:var(--accent);border-radius:50%; }
+.h-logo span { color:var(--accent); }
+.h-nav { display:flex;align-items:center;gap:clamp(16px,2.5vw,28px);list-style:none; }
+.h-nav a { font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:rgba(242,238,230,.36);text-decoration:none;transition:color .18s;position:relative;padding:4px 0; }
+.h-nav a::after { content:'';position:absolute;left:0;bottom:-1px;width:0;height:1px;background:var(--accent);transition:width .28s var(--ease-out); }
+.h-nav a:hover { color:rgba(242,238,230,.9); }
+.h-nav a:hover::after, .h-nav a[aria-current]::after { width:100%; }
+.h-nav a[aria-current] { color:rgba(242,238,230,.9); }
+.h-vol { font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--gold);padding:4px 10px;border:1px solid rgba(184,149,42,.3); }
+.hamburger { display:none;flex-direction:column;justify-content:center;gap:5px;width:36px;height:36px;background:none;border:none;padding:7px;cursor:none; }
+.hamburger span { display:block;width:22px;height:1px;background:rgba(242,238,230,.7);transform-origin:center;transition:transform .3s var(--ease-out),opacity .18s; }
+.hamburger.open span:nth-child(1) { transform:translateY(6px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity:0;transform:scaleX(0); }
+.hamburger.open span:nth-child(3) { transform:translateY(-6px) rotate(-45deg); }
+@media (max-width: 860px) { .h-nav{display:none}.hamburger{display:flex}.h-vol{display:none} }
+
+.mobile-menu { position:fixed;top:52px;left:0;right:0;z-index:4999;background:rgba(8,8,16,.98);backdrop-filter:blur(20px);border-bottom:1px solid rgba(242,238,230,.07);padding:24px var(--h-pad) 32px;transform:translateY(-110%);opacity:0;transition:transform .3s var(--ease-out),opacity .18s; }
+.mobile-menu.open { transform:translateY(0);opacity:1; }
+.mobile-menu ul { list-style:none;display:flex;flex-direction:column;gap:2px; }
+.mobile-menu a { display:block;padding:12px 0;font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,238,230,.44);text-decoration:none;border-bottom:.5px solid rgba(242,238,230,.05);transition:color .18s,padding-left .28s var(--ease-out); }
+.mobile-menu a:hover { color:rgba(242,238,230,.9);padding-left:8px; }
+.mob-cta { margin-top:24px;display:inline-flex;align-items:center;gap:9px;padding:12px 24px;background:var(--accent);color:white;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none; }
+
+/* ── TICKER ── */
+.ticker-outer { background:var(--ink2);overflow:hidden;border-bottom:1px solid rgba(242,238,230,.05);position:relative;margin-top:52px; }
+.ticker-outer::before,.ticker-outer::after { content:'';position:absolute;top:0;bottom:0;width:100px;z-index:2;pointer-events:none; }
+.ticker-outer::before { left:0;background:linear-gradient(90deg,var(--ink2) 60%,transparent); }
+.ticker-outer::after  { right:0;background:linear-gradient(-90deg,var(--ink2) 60%,transparent); }
+.ticker-track { display:flex;align-items:center;width:max-content;padding:10px 0;animation:tickerRoll 52s linear infinite;will-change:transform; }
+.ticker-track:hover { animation-play-state:paused; }
+.t-item { white-space:nowrap;padding:0 32px;font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(242,238,230,.22); }
+.t-item strong { color:var(--gold);font-weight:500; }
+.t-sep { color:rgba(242,238,230,.1);padding:0 4px; }
+@keyframes tickerRoll { 0%{transform:translateX(0)}100%{transform:translateX(-50%)} }
+
+/* ══════════════════════════════════════
+   LGU+ GNB SHELL 아키텍처 레이어
+   path / postParam / tabId / sortBaseCd / pageNo
+══════════════════════════════════════ */
+
+/* GNB Shell wrapper */
+.gnb-shell {
+  position: relative;
+}
+
+/* LGU+ 스타일 브레드크럼 (benefit-event 경로 표시) */
+.lgu-breadcrumb {
+  background: var(--ink2);
+  border-bottom: 1px solid rgba(242,238,230,.06);
+  padding: 0 var(--h-pad);
+  display: flex; align-items: center;
+  height: 38px; gap: 0; overflow-x: auto; white-space: nowrap;
+  scrollbar-width: none;
+}
+.lgu-breadcrumb::-webkit-scrollbar { display: none; }
+.bc-item {
+  font-family: var(--mono); font-size: 8.5px; letter-spacing: .12em;
+  text-transform: uppercase; color: rgba(242,238,230,.28);
+  text-decoration: none; padding: 0 10px;
+  transition: color .18s; flex-shrink: 0;
+}
+.bc-item:first-child { padding-left: 0; }
+.bc-item:hover { color: rgba(242,238,230,.7); }
+.bc-item.active { color: var(--accent); }
+.bc-sep { color: rgba(242,238,230,.12); font-family: var(--mono); font-size: 8px; flex-shrink: 0; }
+.bc-path-badge {
+  margin-left: auto; padding-left: 16px;
+  font-family: var(--mono); font-size: 7.5px; letter-spacing: .14em;
+  color: rgba(242,238,230,.18); flex-shrink: 0;
+}
+.bc-path-badge span { color: var(--gold); }
+
+/* LGU+ 섹션 앵커 탭 내비게이션 (postParam 타겟) */
+.lgu-anchor-nav {
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  padding: 0 var(--h-pad);
+  display: flex; align-items: center; gap: 0;
+  overflow-x: auto; scrollbar-width: none;
+  position: sticky; top: 52px; z-index: 4000;
+}
+.lgu-anchor-nav::-webkit-scrollbar { display: none; }
+.an-item {
+  font-family: var(--mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none; padding: 14px 18px;
+  border-bottom: 2px solid transparent; transition: color .18s, border-color .18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.an-item:hover { color: var(--ink); }
+.an-item.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* LGU+ URL 파라미터 상태 표시 바 (개발/디버그용, 실서비스에선 숨김) */
+.url-state-bar {
+  background: var(--ink); padding: 8px var(--h-pad);
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  border-bottom: 1px solid rgba(242,238,230,.05);
+}
+.usb-label {
+  font-family: var(--mono); font-size: 7.5px; letter-spacing: .2em;
+  text-transform: uppercase; color: rgba(242,238,230,.2); white-space: nowrap;
+}
+.usb-param {
+  font-family: var(--mono); font-size: 8px; letter-spacing: .1em;
+  padding: 2px 8px; border: .5px solid rgba(10,10,255,.2);
+  color: rgba(10,10,255,.6); white-space: nowrap; cursor: pointer;
+  transition: border-color .18s, color .18s;
+}
+.usb-param:hover { border-color: var(--accent); color: var(--accent); }
+.usb-param.has-value { border-color: rgba(10,10,255,.5); color: var(--accent); }
+.usb-param .key { color: rgba(242,238,230,.3); }
+.usb-param .val { color: var(--accent); font-weight: 700; }
+
+/* ── HERO ── */
+.hero { min-height:94vh;padding-top:clamp(80px,12vh,120px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,88px);align-items:center;padding-left:var(--h-pad);padding-right:var(--h-pad);padding-bottom:clamp(64px,8vh,100px);position:relative;overflow:hidden;background:linear-gradient(135deg,#fff 0%,var(--med-01) 60%,var(--med-02) 100%); }
+.hero::before { content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(8,8,16,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(8,8,16,.04) 1px,transparent 1px);background-size:48px 48px;pointer-events:none; }
+.hero-line { position:absolute;top:0;left:50%;width:1px;height:100%;background:var(--border);pointer-events:none; }
+.hero-num-bg { position:absolute;right:-2%;bottom:-5%;font-family:var(--sans);font-size:clamp(180px,28vw,460px);font-weight:800;color:transparent;-webkit-text-stroke:1px rgba(8,8,16,.04);line-height:1;pointer-events:none;user-select:none;letter-spacing:-.06em; }
+@media (max-width:860px) { .hero{grid-template-columns:1fr;padding-top:calc(52px + 56px)}.hero-line{display:none}.hero-num-bg{font-size:clamp(120px,40vw,240px);opacity:.5} }
+.hero-left { position:relative;z-index:1; }
+.h-eyebrow { display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:8px;letter-spacing:.36em;text-transform:uppercase;color:var(--accent);margin-bottom:40px;opacity:0;animation:fadeUp .7s var(--ease-out) .25s both; }
+.h-eyebrow::before { content:'';width:32px;height:1px;background:currentColor;flex-shrink:0; }
+.h-eyebrow-line { width:1px;height:12px;background:rgba(10,10,255,.3); }
+.h1 { font-family:var(--serif);font-size:clamp(48px,7.5vw,108px);font-weight:900;line-height:.94;letter-spacing:-.05em;color:var(--ink);margin-bottom:40px;opacity:0;animation:fadeUp 1s var(--ease-out) .42s both; }
+.h1 em { font-style:italic;color:var(--accent);font-weight:400; }
+.h1 .sub-line { display:block;font-size:.58em;font-weight:300;color:var(--ink3);letter-spacing:-.02em;line-height:1.35;margin-top:6px;font-family:var(--body-serif); }
+.h-sub { font-family:var(--body-serif);font-size:clamp(15px,1.6vw,19px);font-weight:300;color:var(--ink3);max-width:560px;line-height:1.88;letter-spacing:-.01em;margin-bottom:48px;opacity:0;animation:fadeUp .8s var(--ease-out) .65s both; }
+.h-sub strong { color:var(--ink);font-weight:600; }
+.h-btns { display:flex;flex-wrap:wrap;gap:12px;opacity:0;animation:fadeUp .8s var(--ease-out) .82s both; }
+.hero-right { display:flex;flex-direction:column;gap:1px;position:relative;z-index:1;opacity:0;animation:fadeUp .9s var(--ease-out) .55s both; }
+.stat-box { background:var(--paper2);border:.5px solid var(--border);padding:22px 28px;display:flex;justify-content:space-between;align-items:center;transition:background .18s,border-color .18s;cursor:default; }
+.stat-box:hover { background:var(--paper3);border-color:var(--border); }
+.stat-box:first-child { border-radius:0;border-top:2px solid var(--accent); }
+.sbn { font-family:var(--serif);font-size:clamp(28px,3.5vw,46px);font-weight:900;color:var(--ink);letter-spacing:-.05em;line-height:1; }
+.sbn .acc { color:var(--accent); }
+.sbn .red { color:var(--red); }
+.sbl { font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:right;line-height:1.8; }
+.sbl strong { color:var(--ink);display:block; }
+
+/* ── STATS BAND ── */
+.stats-band { background:var(--ink2);padding:24px var(--h-pad);border-top:1px solid rgba(242,238,230,.06); }
+.stats-inner { max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0; }
+@media (max-width:768px) { .stats-inner{grid-template-columns:repeat(2,1fr)} }
+.s-stat { padding:clamp(20px,3vw,32px) clamp(16px,3vw,32px);border-right:.5px solid rgba(242,238,230,.07); }
+.s-stat:last-child { border-right:none; }
+.s-num { font-family:var(--sans);font-size:clamp(24px,3.5vw,44px);font-weight:800;color:var(--dkt1);letter-spacing:-.04em;line-height:1;display:block;margin-bottom:10px; }
+.s-num .acc { color:var(--accent); }
+.s-lbl { font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dkt3);line-height:1.8; }
+.s-lbl strong { color:var(--dkt2);display:block; }
+
+/* ── BTN SYSTEM ── */
+.btn-primary { display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:white;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:none;cursor:none;transition:background .18s,transform .1s; }
+.btn-primary:hover { background:var(--accent-d);transform:translateY(-1px); }
+.btn-ghost { display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:transparent;color:var(--ink);font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:1px solid var(--border);cursor:none;transition:border-color .18s,color .18s; }
+.btn-ghost:hover { border-color:var(--ink);color:var(--ink); }
+.btn-red { display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--red);color:white;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;border:none;cursor:none;transition:background .18s; }
+.btn-red:hover { background:var(--red-d); }
+
+/* ── SECTION LAYOUT ── */
+.section { padding: var(--s-pad) var(--h-pad); }
+.section-lt  { background: var(--paper); }
+.section-lt2 { background: var(--paper2); }
+.section-dk  { background: var(--dk2); }
+.fp-inner { max-width:var(--max-w);margin:0 auto; }
+.label { font-family:var(--mono);font-size:8px;letter-spacing:.28em;text-transform:uppercase;display:flex;align-items:center;gap:10px;margin-bottom:16px; }
+.label::before { content:'';width:20px;height:.5px;background:currentColor;flex-shrink:0; }
+.label-blue  { color:var(--accent); }
+.label-gold  { color:var(--gold); }
+.label-red   { color:var(--red); }
+.label-green { color:var(--green); }
+.label-ghost { color:var(--muted); }
+.label-dk-ghost { color:var(--dkt3); }
+.s-h2 { font-family:var(--serif);font-size:clamp(30px,5vw,66px);font-weight:900;letter-spacing:-.05em;line-height:.96;color:var(--ink); }
+.s-h2 em { font-style:italic;color:var(--accent);font-weight:400; }
+.s-h2 .red-em { color:var(--red); }
+.s-h2-wh { color:var(--dkt1); }
+.s-h2-wh em { color:var(--gold2); }
+.s-lead { font-family:var(--body-serif);font-size:clamp(15px,1.6vw,19px);font-weight:300;color:var(--ink3);max-width:640px;line-height:1.88;margin-top:20px; }
+.s-lead-wh { color:var(--dkt2); }
+.s-lead strong { color:var(--ink);font-weight:600; }
+.s-lead-wh strong { color:var(--dkt1); }
+
+/* ── SCROLL REVEAL ── */
+.rv { opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease-out),transform .7s var(--ease-out); }
+.rv.on { opacity:1;transform:none; }
+.d1{transition-delay:.1s!important}.d2{transition-delay:.2s!important}
+.d3{transition-delay:.3s!important}.d4{transition-delay:.4s!important}
+@keyframes fadeUp { from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)} }
+
+/* ── BATTLE ── */
+.battle-grid { display:grid;grid-template-columns:1fr 1fr;gap:clamp(48px,7vw,88px);align-items:start;margin-top:clamp(48px,6vw,72px); }
+@media (max-width:768px) { .battle-grid{grid-template-columns:1fr} }
+.pull-quote { border-left:4px solid var(--accent);padding-left:28px;margin:36px 0; }
+.pq-text { font-family:var(--body-serif);font-size:clamp(18px,2.2vw,26px);font-weight:300;font-style:italic;color:var(--ink);line-height:1.55; }
+.pq-text em { color:var(--accent);font-style:normal;font-weight:600; }
+.pq-attr { font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:14px; }
+.data-box { background:var(--paper2);border-top:2px solid var(--accent);padding:32px;margin-top:32px; }
+.db-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:0; }
+.db-stat { text-align:center;padding:20px 16px;border-right:.5px solid var(--border); }
+.db-stat:last-child { border-right:none; }
+.db-num { font-family:var(--sans);font-size:clamp(32px,4vw,52px);font-weight:800;color:var(--ink);letter-spacing:-.04em;line-height:1;display:block; }
+.db-num .acc { color:var(--accent); }
+.db-num .red { color:var(--red); }
+.db-lbl { font-family:var(--mono);font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:10px;display:block; }
+.fail-list { list-style:none;display:flex;flex-direction:column;gap:0;margin-top:24px; }
+.fail-item { display:grid;grid-template-columns:28px 1fr;gap:16px;padding:18px 0;border-bottom:.5px solid var(--border);align-items:start; }
+.fail-item:last-child { border-bottom:none; }
+.fi-num { font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;color:var(--accent);font-weight:700;padding-top:2px; }
+.fi-title { font-family:var(--serif);font-size:clamp(14px,1.5vw,17px);font-weight:700;letter-spacing:-.02em;color:var(--ink);margin-bottom:6px; }
+.fi-body { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,15px);color:var(--ink3);line-height:1.78; }
+.highlight-box { background:var(--ink);color:var(--dkt1);padding:28px 32px;margin:40px 0;position:relative; }
+.highlight-box::before { content:'⚡ KEY INSIGHT';font-family:var(--mono);font-size:7.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:14px; }
+.hb-text { font-family:var(--body-serif);font-size:clamp(15px,1.6vw,19px);font-weight:300;line-height:1.78;color:var(--dkt1); }
+.hb-text strong { color:var(--gold2);font-weight:600; }
+
+/* ── WEAPONS ── */
+.strat-list { display:flex;flex-direction:column;gap:0;margin-top:48px; }
+.strat-row { display:grid;grid-template-columns:80px 1fr;gap:clamp(16px,3vw,40px);padding:clamp(20px,3vw,36px) 0;border-bottom:.5px solid var(--border);align-items:start; }
+.strat-row:last-child { border-bottom:none; }
+.sr-num { font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);padding-top:3px;font-weight:700; }
+.sr-title { font-family:var(--serif);font-size:clamp(17px,2vw,24px);font-weight:700;letter-spacing:-.03em;color:var(--ink);line-height:1.2;margin-bottom:10px; }
+.sr-title em { font-style:italic;color:var(--accent);font-weight:400; }
+.sr-desc { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,15.5px);color:var(--ink3);line-height:1.88;max-width:640px; }
+.sr-tags { display:flex;flex-wrap:wrap;gap:6px;margin-top:12px; }
+.sr-tag { font-family:var(--mono);font-size:8px;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border:.5px solid var(--border);color:var(--muted); }
+
+/* ── SUCCESS (Case Studies) + LGU+ pageNo pagination ── */
+.case-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;margin-top:clamp(48px,6vw,72px);background:rgba(242,238,230,.08); }
+.case-card { background:var(--dk2);padding:clamp(28px,4vw,44px);border-top:2px solid transparent;transition:background .18s;position:relative; }
+.case-card.c1 { border-top-color:var(--accent); }
+.case-card.c2 { border-top-color:var(--gold); }
+.case-card.c3 { border-top-color:var(--red); }
+.case-card:hover { background:var(--dk3); }
+.c-num { font-family:var(--mono);font-size:8px;letter-spacing:.24em;text-transform:uppercase;color:var(--dkt3);margin-bottom:16px; }
+.c-title { font-family:var(--serif);font-size:clamp(17px,1.9vw,22px);font-weight:700;letter-spacing:-.03em;color:var(--dkt1);margin-bottom:16px;line-height:1.25; }
+.c-body { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,15px);color:var(--dkt2);line-height:1.85; }
+.c-body strong { color:var(--gold2);font-weight:600; }
+.c-tags { display:flex;flex-wrap:wrap;gap:5px;margin-top:18px; }
+.c-tag { font-family:var(--mono);font-size:7.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:.5px solid rgba(242,238,230,.1);color:var(--dkt3); }
+
+/* LGU+ pageNo 페이지네이션 */
+.lgu-pagination {
+  display: flex; align-items: center; gap: 0;
+  margin-top: 48px; justify-content: center;
+}
+.pg-btn {
+  width: 40px; height: 40px; background: none; border: .5px solid rgba(242,238,230,.12);
+  font-family: var(--mono); font-size: 10px; color: rgba(242,238,230,.28);
+  cursor: none; transition: all .18s; display: flex; align-items: center; justify-content: center;
+}
+.pg-btn:hover { background: rgba(242,238,230,.05); color: rgba(242,238,230,.7); }
+.pg-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+.pg-info { font-family: var(--mono); font-size: 8px; letter-spacing: .14em; color: rgba(242,238,230,.2); padding: 0 20px; }
+
+/* ── PROGRAMS + LGU+ tabId 탭 ── */
+/* LGU+ tabId 탭 네비게이션 */
+.lgu-tab-nav {
+  display: flex; align-items: center; gap: 0;
+  border-bottom: .5px solid var(--border); margin-bottom: 48px;
+  margin-top: 48px; overflow-x: auto; scrollbar-width: none;
+}
+.lgu-tab-nav::-webkit-scrollbar { display: none; }
+.tab-btn {
+  font-family: var(--mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase;
+  padding: 14px 20px; background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--muted); cursor: none; transition: color .18s, border-color .18s;
+  white-space: nowrap; margin-bottom: -1px;
+}
+.tab-btn:hover { color: var(--ink); }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+.prog-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border); }
+@media (max-width:768px) { .prog-grid{grid-template-columns:1fr} }
+.prog-card { background:var(--paper);padding:clamp(28px,4vw,44px);border-top:2px solid transparent;transition:background .18s; }
+.prog-card.pa { border-top-color:var(--accent); }
+.prog-card.pb { border-top-color:var(--red); }
+.prog-card.pc { border-top-color:var(--gold); }
+.prog-card:hover { background:var(--paper2); }
+.prog-pill { font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;display:block; }
+.prog-title { font-family:var(--serif);font-size:clamp(18px,2vw,24px);font-weight:700;letter-spacing:-.03em;color:var(--ink);line-height:1.2;margin-bottom:16px; }
+.prog-body { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,15px);color:var(--ink3);line-height:1.88; }
+.prog-body strong { color:var(--ink);font-weight:600; }
+.prog-tags { display:flex;flex-wrap:wrap;gap:5px;margin-top:16px; }
+.prog-tag { font-family:var(--mono);font-size:7.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:.5px solid var(--border);color:var(--muted); }
+
+/* ── NONMUNHAK + LGU+ sortBaseCd 정렬 ── */
+.nm-banner { background:var(--ink);padding:clamp(80px,12vh,130px) var(--h-pad);position:relative;overflow:hidden;border-top:2px solid var(--accent); }
+.nm-banner::before { content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 45% 55% at 20% 50%,rgba(10,10,255,.10),transparent),radial-gradient(ellipse 35% 45% at 80% 60%,rgba(184,149,42,.07),transparent); }
+.nm-banner-z { position:relative;z-index:1;max-width:var(--max-w);margin:0 auto; }
+.nm-kicker { font-family:var(--mono);font-size:8px;letter-spacing:.36em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:14px;margin-bottom:36px; }
+.nm-kicker::before { content:'';width:28px;height:1px;background:currentColor; }
+.nm-vol { padding:3px 10px;border:1px solid rgba(10,10,255,.3);font-size:8px;letter-spacing:.2em; }
+.nm-title { font-family:var(--serif);font-size:clamp(52px,9vw,130px);font-weight:900;line-height:.88;letter-spacing:-.06em;color:var(--dkt1);margin-bottom:48px; }
+.nm-title em { font-style:italic;color:var(--accent);font-weight:400; }
+.nm-title strong { color:var(--gold2); }
+.nm-rule { width:100%;height:.5px;background:rgba(242,238,230,.08);margin-bottom:40px; }
+.nm-meta { display:flex;align-items:center;gap:0;flex-wrap:wrap; }
+.nm-meta-item { padding:0 clamp(16px,3vw,40px);border-right:.5px solid rgba(242,238,230,.08); }
+.nm-meta-item:first-child { padding-left:0; }
+.nm-meta-num { font-family:var(--sans);font-size:clamp(22px,3vw,38px);font-weight:800;color:var(--dkt1);letter-spacing:-.04em;line-height:1; }
+.nm-meta-num span { color:var(--accent); }
+.nm-meta-label { font-family:var(--mono);font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:var(--dkt3);margin-top:8px; }
+
+/* LGU+ sortBaseCd 정렬 컨트롤 */
+.lgu-sort-bar {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 28px; flex-wrap: wrap;
+}
+.sort-label {
+  font-family: var(--mono); font-size: 8px; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--dkt3); flex-shrink: 0;
+}
+.sort-btns { display: flex; gap: 0; }
+.sort-btn {
+  font-family: var(--mono); font-size: 8px; letter-spacing: .12em; text-transform: uppercase;
+  padding: 6px 14px; background: none; border: .5px solid rgba(242,238,230,.1);
+  color: rgba(242,238,230,.3); cursor: none; transition: all .18s; margin-right: -0.5px;
+}
+.sort-btn:hover { color: rgba(242,238,230,.7); border-color: rgba(242,238,230,.3); }
+.sort-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+.sort-code { margin-left: auto; font-family: var(--mono); font-size: 7.5px; letter-spacing: .1em; color: rgba(242,238,230,.15); }
+.sort-code span { color: rgba(10,10,255,.5); }
+
+.taxonomy-section { background:var(--paper2); }
+.taxonomy-wrap { margin-top:48px;border:.5px solid var(--border); }
+.tx-header { display:grid;grid-template-columns:220px 1fr 200px;background:var(--ink);padding:12px 20px;gap:24px; }
+.tx-th { font-family:var(--mono);font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:var(--dkt3); }
+.tx-row { display:grid;grid-template-columns:220px 1fr 200px;border-bottom:.5px solid var(--border);padding:20px;gap:24px;align-items:start;transition:background .18s; }
+.tx-row:last-child { border-bottom:none; }
+.tx-row:hover { background:var(--paper3); }
+.tx-badge { display:inline-block;font-family:var(--mono);font-size:7.5px;letter-spacing:.16em;text-transform:uppercase;padding:3px 10px;margin-bottom:8px; }
+.bd-med  { background:rgba(232,0,26,.08);color:var(--red);border:.5px solid rgba(232,0,26,.2); }
+.bd-cs   { background:rgba(10,10,255,.08);color:var(--accent);border:.5px solid rgba(10,10,255,.2); }
+.bd-biz  { background:rgba(184,149,42,.1);color:var(--gold);border:.5px solid rgba(184,149,42,.2); }
+.bd-law  { background:rgba(26,122,74,.08);color:var(--green);border:.5px solid rgba(26,122,74,.2); }
+.bd-eng  { background:rgba(8,8,16,.06);color:var(--muted);border:.5px solid var(--border); }
+.bd-hum  { background:rgba(8,8,16,.04);color:var(--muted2);border:.5px solid var(--border2); }
+.tx-dept { font-family:var(--serif);font-size:clamp(13px,1.3vw,16px);font-weight:700;letter-spacing:-.02em;color:var(--ink); }
+.tx-dept-sub { font-family:var(--mono);font-size:8px;letter-spacing:.1em;color:var(--muted);margin-top:4px; }
+.tx-cell { font-family:var(--body-serif);font-size:clamp(12px,1.2vw,14px);color:var(--ink3);line-height:1.78; }
+.tx-cell strong { color:var(--ink);font-weight:600; }
+.tx-cell em { color:var(--muted);font-style:italic; }
+@media (max-width:768px) { .tx-header,.tx-row{grid-template-columns:1fr}.tx-th:not(:first-child),.tx-row>div:nth-child(3){display:none} }
+
+/* ── ACCORDION ── */
+.deepdives { background:var(--paper); }
+.acc-list { margin-top:48px;border-top:.5px solid var(--border); }
+.acc-item { border-bottom:.5px solid var(--border); }
+.acc-trigger { width:100%;padding:clamp(18px,2.5vw,28px) 0;background:none;border:none;display:grid;grid-template-columns:48px 1fr auto;gap:24px;align-items:center;cursor:none;text-align:left;transition:background .18s; }
+.acc-trigger:hover { background:rgba(8,8,16,.02);padding-left:6px; }
+.acc-index { font-family:var(--mono);font-size:9px;letter-spacing:.18em;color:var(--accent);font-weight:700; }
+.acc-dept { font-family:var(--serif);font-size:clamp(16px,1.8vw,21px);font-weight:700;letter-spacing:-.03em;color:var(--ink);line-height:1.15; }
+.acc-sub { font-family:var(--mono);font-size:8px;letter-spacing:.1em;color:var(--muted);margin-top:4px; }
+.acc-arrow { font-family:var(--mono);font-size:16px;color:var(--accent);transition:transform .3s var(--ease-out);flex-shrink:0; }
+.acc-item.open .acc-arrow { transform:rotate(45deg); }
+.acc-body { max-height:0;overflow:hidden;transition:max-height .5s var(--ease-out); }
+.acc-item.open .acc-body { max-height:900px; }
+.acc-body-inner { padding-bottom:32px;padding-top:8px; }
+.acc-body-grid { display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,56px); }
+@media (max-width:768px) { .acc-body-grid{grid-template-columns:1fr} }
+.acc-intro { font-family:var(--body-serif);font-size:clamp(14px,1.4vw,16px);color:var(--ink3);line-height:1.88;margin-bottom:24px; }
+.acc-intro strong { color:var(--ink);font-weight:600; }
+.topic-label { font-family:var(--mono);font-size:8px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-bottom:16px; }
+.topic-list { list-style:none;display:flex;flex-direction:column;gap:0; }
+.topic-item { display:flex;gap:14px;padding:14px 0;border-bottom:.5px solid var(--border2); }
+.topic-item:last-child { border-bottom:none; }
+.topic-dot { width:5px;height:5px;border-radius:50%;background:var(--accent);margin-top:6px;flex-shrink:0; }
+.topic-title { font-family:var(--serif);font-size:clamp(13px,1.3vw,15px);font-weight:700;letter-spacing:-.02em;color:var(--ink);margin-bottom:5px; }
+.topic-desc { font-family:var(--body-serif);font-size:clamp(12px,1.2vw,13.5px);color:var(--ink3);line-height:1.75; }
+.topic-desc em { color:var(--accent);font-style:italic; }
+.insight-card { background:var(--ink);padding:28px 24px;margin-bottom:16px;border-top:2px solid var(--gold); }
+.ic-label { font-family:var(--mono);font-size:7.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:16px; }
+.ic-quote { font-family:var(--body-serif);font-size:clamp(14px,1.4vw,17px);font-style:italic;color:var(--dkt1);line-height:1.65; }
+.ic-quote strong { color:var(--gold2);font-style:normal;font-weight:600; }
+.ic-attr { font-family:var(--mono);font-size:8px;letter-spacing:.12em;color:var(--dkt3);margin-top:14px; }
+.strat-pill-list { display:flex;flex-direction:column;gap:10px; }
+.strat-pill { display:flex;gap:14px;align-items:flex-start;padding:14px;background:var(--paper2);border:.5px solid var(--border); }
+.sp-icon { font-size:14px;flex-shrink:0;width:28px;display:flex;align-items:center;justify-content:center; }
+.sp-title { font-family:var(--serif);font-size:clamp(12px,1.2vw,14px);font-weight:700;color:var(--ink);margin-bottom:4px; }
+.sp-desc { font-family:var(--body-serif);font-size:clamp(12px,1.1vw,13.5px);color:var(--ink3);line-height:1.7; }
+
+/* ── MATRIX ── */
+.matrix-section { background:var(--dk);padding:var(--s-pad) var(--h-pad); }
+.matrix-inner { max-width:var(--max-w);margin:0 auto; }
+.matrix-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:48px;background:rgba(240,249,255,.05); }
+@media (max-width:768px) { .matrix-grid{grid-template-columns:1fr} }
+.mx-cell { background:var(--dk2);padding:clamp(24px,3.5vw,40px);border-top:2px solid var(--accent); }
+.mx-cell:nth-child(2) { border-top-color:var(--gold); }
+.mx-cell:nth-child(3) { border-top-color:var(--red); }
+.mx-kicker { font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--dkt3);margin-bottom:14px; }
+.mx-dept { font-family:var(--serif);font-size:clamp(22px,2.5vw,32px);font-weight:900;letter-spacing:-.04em;color:var(--dkt1);line-height:1.1;margin-bottom:20px; }
+.mx-dept em { font-style:italic;color:var(--accent);font-weight:400; }
+.mx-points { list-style:none;display:flex;flex-direction:column;gap:10px; }
+.mx-pt { font-family:var(--body-serif);font-size:clamp(12px,1.2vw,14px);color:var(--dkt2);line-height:1.75;padding-left:14px;border-left:2px solid rgba(242,238,230,.08); }
+.mx-pt strong { color:var(--dkt1);font-weight:600; }
+.mx-insight { margin-top:20px;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--dkt3); }
+.mx-insight-dot { width:5px;height:5px;border-radius:50%;background:var(--accent);flex-shrink:0; }
+
+/* ── ROADMAP ── */
+.roadmap-section { background:var(--paper2); }
+.roadmap-header { display:grid;grid-template-columns:1fr auto;gap:28px;align-items:start;margin-bottom:clamp(48px,6vw,72px); }
+@media (max-width:640px) { .roadmap-header{grid-template-columns:1fr} }
+.flow-steps { display:flex;flex-direction:column;gap:0; }
+.flow-step { display:grid;grid-template-columns:64px 1fr;gap:clamp(18px,3.5vw,44px);padding:clamp(20px,3vw,36px) 0;border-bottom:.5px solid var(--border);position:relative;align-items:start; }
+.flow-step::before { content:'';position:absolute;left:30px;top:56px;bottom:-1px;width:1px;background:linear-gradient(180deg,var(--border),transparent); }
+.flow-step:last-child::before { display:none; }
+.flow-step:last-child { border-bottom:none; }
+.fs-num-wrap { display:flex;flex-direction:column;align-items:center;padding-top:2px; }
+.fs-num { width:36px;height:36px;border-radius:50%;background:var(--paper3);border:.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:10px;color:var(--muted);position:relative;z-index:1; }
+.flow-step.active .fs-num { background:var(--accent);border-color:var(--accent);color:white;box-shadow:0 4px 16px rgba(10,10,255,.28); }
+.fs-phase { font-family:var(--mono);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:8px; }
+.flow-step.active .fs-phase { color:var(--accent); }
+.fs-title { font-family:var(--serif);font-size:clamp(16px,1.9vw,23px);font-weight:700;letter-spacing:-.03em;color:var(--ink);line-height:1.2;margin-bottom:10px; }
+.fs-title em { font-style:italic;color:var(--accent);font-weight:400; }
+.fs-body { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,15px);color:var(--ink3);line-height:1.88;max-width:620px; }
+.fs-body strong { color:var(--ink);font-weight:600; }
+.fs-tags { display:flex;flex-wrap:wrap;gap:6px;margin-top:12px; }
+.fs-tag { font-family:var(--mono);font-size:8px;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border:.5px solid var(--border);color:var(--muted); }
+
+/* ── EXAM SNAP ── */
+.exam-snap { background:var(--dk3);padding:var(--s-pad) var(--h-pad); }
+.snap-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;margin-top:48px;background:rgba(242,238,230,.05); }
+.snap-card { background:var(--dk2);padding:clamp(22px,3.5vw,36px);border-top:2px solid transparent;transition:background .18s; }
+.snap-card.s1 { border-top-color:var(--red); }
+.snap-card.s2 { border-top-color:var(--accent); }
+.snap-card.s3 { border-top-color:var(--gold); }
+.snap-card.s4 { border-top-color:var(--green); }
+.snap-card:hover { background:var(--dk); }
+.sc-year { font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--dkt3);margin-bottom:12px; }
+.sc-title { font-family:var(--serif);font-size:clamp(14px,1.7vw,19px);font-weight:700;letter-spacing:-.025em;color:var(--dkt1);margin-bottom:12px;line-height:1.25; }
+.sc-body { font-family:var(--body-serif);font-size:clamp(12px,1.2vw,14px);color:var(--dkt2);line-height:1.8; }
+.sc-body strong { color:var(--gold2);font-weight:600; }
+.sc-tags { display:flex;flex-wrap:wrap;gap:5px;margin-top:14px; }
+.sc-tag { font-family:var(--mono);font-size:7.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border:.5px solid rgba(242,238,230,.1);color:var(--dkt3); }
+
+/* ── CLOSING CTA ── */
+.closing-cta { background:var(--paper);padding:var(--s-pad) var(--h-pad);text-align:center; }
+.cc-inner { max-width:640px;margin:0 auto; }
+.cc-eyebrow { font-family:var(--mono);font-size:8px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-bottom:28px; }
+.cc-h2 { font-family:var(--serif);font-size:clamp(32px,5.5vw,72px);font-weight:900;letter-spacing:-.05em;line-height:.94;color:var(--ink);margin-bottom:20px; }
+.cc-h2 em { font-style:italic;color:var(--accent);font-weight:400; }
+.cc-body { font-family:var(--body-serif);font-size:clamp(15px,1.6vw,19px);font-weight:300;color:var(--ink3);line-height:1.88;margin-bottom:42px; }
+.cc-body em { color:var(--ink);font-style:italic; }
+.cc-btns { display:flex;flex-wrap:wrap;gap:12px;justify-content:center; }
+.phone-pulse { position:relative;display:inline-flex;align-items:center;gap:8px; }
+.phone-pulse::before { content:'';position:absolute;inset:-8px;border-radius:0;border:1.5px solid rgba(255,45,107,.3);animation:pulsePing 2.2s ease-out infinite; }
+@keyframes pulsePing { 0%{transform:scale(.92);opacity:1}70%{transform:scale(1.12);opacity:0}100%{transform:scale(.92);opacity:0} }
+
+/* ── NARRATIVE ── */
+.narrative-grid { display:grid;grid-template-columns:1fr 1fr;gap:clamp(48px,7vw,88px);align-items:start; }
+@media (max-width:768px) { .narrative-grid{grid-template-columns:1fr} }
+.n-cards { display:flex;flex-direction:column;gap:12px;margin-top:8px; }
+.n-card { background:var(--paper3);padding:24px 28px;border-left:3px solid var(--border);transition:border-color .18s,background .18s; }
+.n-card.featured { border-left-color:var(--accent);background:var(--paper2); }
+.n-card.c-steel { border-left-color:var(--accent2); }
+.n-card.c-green { border-left-color:var(--green); }
+.n-card:hover { background:var(--paper4); }
+.n-card-tag { font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:10px; }
+.n-card.featured .n-card-tag { color:var(--accent); }
+.n-card-ttl { font-family:var(--serif);font-size:clamp(14px,1.5vw,18px);font-weight:700;letter-spacing:-.025em;color:var(--ink);margin-bottom:8px; }
+.n-card-body { font-family:var(--body-serif);font-size:clamp(12px,1.2vw,14px);color:var(--ink3);line-height:1.78; }
+.intro-strip { background:var(--ink);padding:20px var(--h-pad);display:flex;align-items:center;gap:24px;border-top:.5px solid rgba(242,238,230,.06); }
+.intro-label { font-family:var(--mono);font-size:8px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);white-space:nowrap;flex-shrink:0; }
+.intro-rule { flex:1;height:.5px;background:rgba(242,238,230,.08); }
+.intro-text { font-family:var(--body-serif);font-size:clamp(13px,1.3vw,16px);font-style:italic;color:var(--dkt2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+@media (max-width:640px) { .intro-text{display:none} }
+.framework-section { background:var(--paper); }
+.fw-header { display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,80px);align-items:start;margin-bottom:56px; }
+@media (max-width:768px) { .fw-header{grid-template-columns:1fr} }
+.fw-lead { font-family:var(--body-serif);font-size:clamp(14px,1.5vw,18px);font-weight:300;color:var(--ink3);line-height:1.88;padding-top:8px; }
+.fw-lead strong { color:var(--ink);font-weight:600; }
+
+/* ── FOOTER ── */
+footer { background:var(--ink);padding:clamp(72px,10vh,110px) var(--h-pad);position:relative;overflow:hidden; }
+footer::before { content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 50% 70% at 5% 90%,rgba(79,113,150,.10),transparent),radial-gradient(ellipse 40% 60% at 95% 10%,rgba(255,45,107,.07),transparent); }
+.foot-inner { max-width:var(--max-w);margin:0 auto;position:relative;z-index:1; }
+.foot-top { display:grid;grid-template-columns:1fr auto;gap:36px;align-items:start;margin-bottom:64px; }
+@media (max-width:640px) { .foot-top{grid-template-columns:1fr} }
+.foot-hl { font-family:var(--serif);font-size:clamp(28px,5vw,64px);font-weight:900;letter-spacing:-.05em;line-height:1.0;color:var(--dkt1); }
+.foot-hl em { font-style:italic;color:var(--gold2);font-weight:400; }
+.foot-btns { display:flex;flex-direction:column;gap:10px;align-items:flex-end;padding-top:6px; }
+@media (max-width:640px) { .foot-btns{align-items:flex-start} }
+.foot-div { height:.5px;background:rgba(242,238,230,.07);margin-bottom:40px; }
+.foot-bot { display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px; }
+.foot-logo { font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--dkt1);display:flex;align-items:center;gap:10px; }
+.foot-logo-dot { width:5px;height:5px;background:var(--accent);border-radius:50%; }
+.foot-links { display:flex;flex-wrap:wrap;gap:20px;list-style:none; }
+.foot-links a { font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,238,230,.2);text-decoration:none;transition:color .18s; }
+.foot-links a:hover { color:rgba(242,238,230,.68); }
+.foot-copy { font-family:var(--mono);font-size:9px;letter-spacing:.08em;color:rgba(242,238,230,.14);line-height:1.8; }
+
+::-webkit-scrollbar { width:2px; }
+::-webkit-scrollbar-track { background:var(--paper2); }
+::-webkit-scrollbar-thumb { background:var(--accent); }
+
+@media print {
+  body::after,#loader,header,.hamburger,.mobile-menu,#cur-dot,#cur-ring,#progress-bar,.ticker-outer,.lgu-breadcrumb,.lgu-anchor-nav,.url-state-bar { display:none!important; }
+  body { cursor:auto; }
+}
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">본문 바로가기</a>
+<div id="progress-bar" role="progressbar" aria-label="페이지 스크롤 진행률" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+<div id="cur-dot" aria-hidden="true"></div>
+<div id="cur-ring" aria-hidden="true"></div>
+
+<!-- ── LOADER ── -->
+<div id="loader" role="status" aria-live="polite" aria-label="페이지 로딩 중">
+  <div class="ld-z">
+    <div class="ld-kicker"><div class="ld-kicker-i">Academic Narrative Engineering · 0.1%</div></div>
+    <div class="ld-title"><div class="ld-title-i">국어 × 생기부<br><em>합격 설계</em></div></div>
+    <div class="ld-sub"><div class="ld-sub-i">SKY · 의치한 합격을 설계합니다</div></div>
+    <div class="ld-bar-track">
+      <div class="ld-bar-fill" id="ldrBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="ld-count" id="ldrCount" aria-live="off">0%</div>
+  </div>
+</div>
+
+<!-- ── HEADER ── -->
+<header id="mainHeader" role="banner">
+  <a href="#" class="h-logo" aria-label="홈으로 이동">
+    <div class="h-logo-dot"></div>
+    국어<span>×</span>생기부
+  </a>
+  <nav role="navigation" aria-label="주 내비게이션" style="display:flex;align-items:center;gap:24px">
+    <ul class="h-nav" role="list">
+      <li><a href="#battle">입시</a></li>
+      <li><a href="#weapons">5가지 경쟁력</a></li>
+      <li><a href="#success">합격 실적</a></li>
+      <li><a href="#programs">프로그램</a></li>
+      <li><a href="#nonmunhak">비문학 전략</a></li>
+      <li><a href="#roadmap">로드맵</a></li>
+    </ul>
+    <div class="h-vol">20년 · 광교</div>
+  </nav>
+  <button class="hamburger" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ── MOBILE MENU ── -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="false" aria-label="모바일 메뉴" hidden>
+  <ul role="list">
+    <li><a href="#battle">입시</a></li>
+    <li><a href="#weapons">5가지 경쟁력</a></li>
+    <li><a href="#success">합격 실적</a></li>
+    <li><a href="#programs">프로그램</a></li>
+    <li><a href="#nonmunhak">비문학 전략</a></li>
+    <li><a href="#roadmap">로드맵</a></li>
+  </ul>
+  <a href="tel:010-8318-1700" class="mob-cta">📞 010-8318-1700</a>
+</div>
+
+<!-- ── TICKER ── -->
+<div class="ticker-outer" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="t-item"><strong>지도생 전원</strong>, 목표 상향 합격<span class="t-sep">·</span></span>
+    <span class="t-item">대치동·분당 20년 — <strong>지금 광교에서</strong><span class="t-sep">·</span></span>
+    <span class="t-item">수원 <strong>권선고 최초</strong> 서울대 법과대학 합격<span class="t-sep">·</span></span>
+    <span class="t-item">그 소개로 — <strong>연세대 법학과</strong> 나란히 합격<span class="t-sep">·</span></span>
+    <span class="t-item">단기 집중으로 <strong>수능 1등급</strong><span class="t-sep">·</span></span>
+    <span class="t-item"><strong>0.1%</strong> 생기부 — 아무도 흉내 낼 수 없는 세특<span class="t-sep">·</span></span>
+    <span class="t-item">합격 1등급은 결과다 — <strong>합격은 설계다</strong><span class="t-sep">·</span></span>
+    <span class="t-item">SKY · 의치한 <strong>합격 설계</strong><span class="t-sep">·</span></span>
+    <span class="t-item"><strong>지도생 전원</strong>, 목표 상향 합격<span class="t-sep">·</span></span>
+    <span class="t-
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     LGU+ GNB SHELL 구조 시작
+     /gnb?path=/benefit-event/ongoing/82173
+     &pageNo=1&sortBaseCd=N&tabId=tab1
+     &postParam=anchor01
+════════════════════════════════════════════ -->
+<div class="gnb-shell" id="gnbShell" data-path="/benefit-event/ongoing/82173">
+
+  <!-- LGU+ 브레드크럼 (benefit-event 경로 표시) -->
+  <nav class="lgu-breadcrumb" aria-label="경로 탐색">
+    <a href="#" class="bc-item">홈</a>
+    <span class="bc-sep">›</span>
+    <a href="#" class="bc-item">입시 전략</a>
+    <span class="bc-sep">›</span>
+    <span class="bc-item active">국어 × 생기부 설계</span>
+    <div class="bc-path-badge" aria-hidden="true">path: <span id="bcPath">/benefit-event/ongoing/82173</span></div>
+  </nav>
+
+  <!-- LGU+ URL 파라미터 상태 바 -->
+  <div class="url-state-bar" aria-hidden="true">
+    <span class="usb-label">URL STATE</span>
+    <div class="usb-param" id="upPostParam" onclick="urlState.setPostParam('anchor01')">
+      <span class="key">postParam=</span><span class="val" id="upPostVal">anchor01</span>
+    </div>
+    <div class="usb-param" id="upTabId" onclick="urlState.cycleTab()">
+      <span class="key">tabId=</span><span class="val" id="upTabVal">tab1</span>
+    </div>
+    <div class="usb-param" id="upSort" onclick="urlState.cycleSort()">
+      <span class="key">sortBaseCd=</span><span class="val" id="upSortVal">N</span>
+    </div>
+    <div class="usb-param" id="upPage" onclick="urlState.setPage(1)">
+      <span class="key">pageNo=</span><span class="val" id="upPageVal">1</span>
+    </div>
+  </div>
+
+  <!-- LGU+ 섹션 앵커 탭 (postParam 타겟 내비게이션) -->
+  <nav class="lgu-anchor-nav" id="anchorNav" aria-label="섹션 바로가기">
+    <a href="#battle"     class="an-item active" data-anchor="anchor01">입시 구조</a>
+    <a href="#weapons"    class="an-item"         data-anchor="anchor02">5가지 경쟁력</a>
+    <a href="#success"    class="an-item"         data-anchor="anchor03">합격 실적</a>
+    <a href="#programs"   class="an-item"         data-anchor="anchor04">프로그램</a>
+    <a href="#nonmunhak"  class="an-item"         data-anchor="anchor05">비문학 전략</a>
+    <a href="#roadmap"    class="an-item"         data-anchor="anchor06">세특 로드맵</a>
+  </nav>
+
+<main id="main-content">
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="anchor00" aria-labelledby="heroH1">
+  <div class="hero-line" aria-hidden="true"></div>
+  <div class="hero-num-bg" aria-hidden="true">20</div>
+  <div class="hero-left">
+    <div class="h-eyebrow" aria-hidden="true">
+      Academic Narrative Engineering
+      <div class="h-eyebrow-line"></div>
+      대치동 20년 · 광교
+    </div>
+    <h1 class="h1" id="heroH1">
+      국어 1등급은<br>
+      <em>결과다.</em>
+      <span class="sub-line">합격은 설계다 — 12년의 노력이 합격으로 환산되지 않는 이유</span>
+    </h1>
+    <p class="h-sub">
+      수능최저를 국어로 놓칩니까. 생기부 세특에 무엇을 써야 할지 막막합니까.<br>
+      <strong>대치동·분당 20년, 지도생 전원 의치한·SKY·인서울 합격.</strong>
+    </p>
+    <div class="h-btns">
+      <a href="tel:010-8318-1700" class="btn-primary phone-pulse">📞 010-8318-1700 상담</a>
+      <a href="#battle" class="btn-ghost">설계 구조 확인하기 ↓</a>
+    </div>
+  </div>
+  <div class="hero-right" role="list" aria-label="주요 성과 수치">
+    <div class="stat-box" role="listitem">
+      <span class="sbn"><span class="acc" data-counter="100">100</span>%</span>
+      <span class="sbl">지도생 전원 합격<br><strong>(2005년~현재)</strong></span>
+    </div>
+    <div class="stat-box" role="listitem">
+      <span class="sbn"><span class="acc" data-counter="20">20</span>년</span>
+      <span class="sbl">대치동·분당<br><strong>지도 경력</strong></span>
+    </div>
+    <div class="stat-box" role="listitem">
+      <span class="sbn" style="font-size:clamp(22px,2.8vw,36px);letter-spacing:-.04em">SKY<span class="acc">·</span></span>
+      <span class="sbl">의치한<br><strong>합격 설계</strong></span>
+    </div>
+    <div class="stat-box" role="listitem">
+      <span class="sbn" style="font-size:clamp(18px,2vw,28px);letter-spacing:-.03em;line-height:1.3">무료<br>미팅</span>
+      <span class="sbl">수업 전 가능성<br><strong>진단 확인</strong></span>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS BAND ── -->
+<div class="stats-band" aria-label="핵심 서비스 지표">
+  <div class="stats-inner">
+    <div class="s-stat rv">
+      <span class="s-num"><span class="acc">1</span>등급</span>
+      <div class="s-lbl">국어 수능<br><strong>불수능에도 고정</strong></div>
+    </div>
+    <div class="s-stat rv d1">
+      <span class="s-num" style="font-size:clamp(20px,3vw,38px);line-height:1.2">세특<span class="acc">×</span><br>심화</span>
+      <div class="s-lbl">전공 연계 탐구<br><strong>0.1% 독보적 서사</strong></div>
+    </div>
+    <div class="s-stat rv d2">
+      <span class="s-num" style="font-size:clamp(18px,2.8vw,36px);line-height:1.2">무료<br><span class="acc">미팅</span></span>
+      <div class="s-lbl">수업 전 가능성 확인<br><strong>국어·전과목 석차 진단</strong></div>
+    </div>
+    <div class="s-stat rv d3">
+      <span class="s-num" style="font-size:clamp(17px,2.5vw,32px);line-height:1.2"><span class="acc">2주</span><br>선행</span>
+      <div class="s-lbl">모의고사 직후 발급<br><strong>예상 석차·분석 자료</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ [anchor01] BATTLE ═══ -->
+
+
+<!-- ═══ [anchor01] BATTLE ═══ -->
+<div id="battle" data-anchor="anchor01" class="section section-lt" style="scroll-margin-top:90px">
+  <div class="fp-inner">
+    <div class="label label-blue rv">입시의 진짜 구조</div>
+    <h2 class="s-h2 rv">왜 <em>열심히</em> 해도<br>안 되는가</h2>
+    <p class="s-lead rv" style="margin-bottom:0">대부분의 학생이 성실하다. 그러나 대부분의 학생이 탈락한다. 이 역설의 원인은 노력의 양이 아닌 <strong>연결의 부재</strong>에 있다.</p>
+    <div class="data-box rv d1">
+      <div class="db-grid">
+        <div class="db-stat">
+          <span class="db-num"><span class="acc">98</span>%</span>
+          <span class="db-lbl">수능 준비생 중<br>1등급 미달</span>
+        </div>
+        <div class="db-stat">
+          <span class="db-num"><span class="red">3</span>개</span>
+          <span class="db-lbl">국어·생기부·세특<br>연결 실패 지점</span>
+        </div>
+        <div class="db-stat">
+          <span class="db-num"><span class="acc">12</span>년</span>
+          <span class="db-lbl">설계 없이 보내면<br>낭비되는 노력</span>
+        </div>
+      </div>
+    </div>
+    <div class="battle-grid">
+      <div>
+        <div class="pull-quote rv">
+          <p class="pq-text">"성실함이라는 덫에 갇힌 학생을 구출하는 것이 우리가 하는 일입니다. 아이의 시간을 <em>소비</em>가 아닌 <em>자산</em>으로 치환합니다."</p>
+          <div class="pq-attr">국어 × 생기부 전략 — 입시 설계 철학</div>
+        </div>
+        <ul class="fail-list" aria-label="실패의 3가지 원인">
+          <li class="fail-item rv">
+            <div class="fi-num">01</div>
+            <div>
+              <div class="fi-title">국어 공부와 생기부가 별개로 움직인다</div>
+              <p class="fi-body">수능 국어는 그저 '풀어야 할 지문'으로만 접근합니다. 비문학 지문이 품고 있는 전공 언어, 탐구의 씨앗을 그냥 지나칩니다. 두 개의 엔진이 따로 돌아갑니다.</p>
+            </div>
+          </li>
+          <li class="fail-item rv d1">
+            <div class="fi-num">02</div>
+            <div>
+              <div class="fi-title">세특은 '쓰는 것'이 아니라 '설계하는 것'임을 모른다</div>
+              <p class="fi-body">활동을 나열합니다. 입학사정관은 <strong>지적 궤적</strong>을 봅니다. '어떤 문제를 발견했는가, 어떻게 파고들었는가, 어디까지 도달했는가'—이 서사가 없으면 아무리 많은 활동도 소음입니다.</p>
+            </div>
+          </li>
+          <li class="fail-item rv d2">
+            <div class="fi-num">03</div>
+            <div>
+              <div class="fi-title">모의고사 이후 2주가 가장 중요한 시간임을 모른다</div>
+              <p class="fi-body">성적표를 기다리는 동안 경쟁자는 이미 분석을 마칩니다. 진단 없는 학습은 방향 없는 달리기입니다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="highlight-box rv">
+          <div class="hb-text">
+            대부분의 학원은 아이의 시간을 <strong>'소비'</strong>하게 합니다. 우리는 아이의 시간을 <strong>'자산'</strong>으로 치환합니다.
+            합격은 그 과정에서 발생하는 <strong>당연한 이자</strong>일 뿐입니다.
+          </div>
+        </div>
+        <div class="pull-quote rv d1" style="border-left-color:var(--gold)">
+          <p class="pq-text">"우리는 학생의 우수성을 나열하지 않습니다. 대학이 <em>뽑을 수밖에 없는</em> 인지적 편향을 설계합니다."</p>
+          <div class="pq-attr">입시 설계 전문가 — 사정관 역설계 접근법</div>
+        </div>
+        <div style="margin-top:28px" class="rv d2">
+          <div class="label label-blue" style="margin-bottom:16px">입시의 3요소 통합 구조</div>
+          <div style="display:flex;flex-direction:column;gap:1px">
+            <div style="background:var(--paper2);padding:16px 20px;border-left:3px solid var(--accent)">
+              <div style="font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px">Module 01</div>
+              <div style="font-family:var(--serif);font-size:clamp(14px,1.5vw,17px);font-weight:700;color:var(--ink)">국어 — 사고 구조의 언어화</div>
+            </div>
+            <div style="background:var(--paper2);padding:16px 20px;border-left:3px solid var(--gold)">
+              <div style="font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Module 02</div>
+              <div style="font-family:var(--serif);font-size:clamp(14px,1.5vw,17px);font-weight:700;color:var(--ink)">생기부 — 지적 여정의 서사화</div>
+            </div>
+            <div style="background:var(--paper2);padding:16px 20px;border-left:3px solid var(--red)">
+              <div style="font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:6px">Module 03</div>
+              <div style="font-family:var(--serif);font-size:clamp(14px,1.5vw,17px);font-weight:700;color:var(--ink)">세특 — 잠재력의 증명</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ [anchor02] WEAPONS ═══ -->
+<div id="weapons" data-anchor="anchor02" class="section section-lt2" style="scroll-margin-top:90px">
+  <div class="fp-inner">
+    <div class="label label-blue rv">5가지 경쟁력</div>
+    <h2 class="s-h2 rv">입시의 모든 변수를<br><em>상수로</em> 바꾸는 설계</h2>
+    <p class="s-lead rv">20년간 다듬어온 시스템 — 국어 1등급부터 0.1% 세특까지, 합격의 모든 변수를 통제합니다.</p>
+    <ul class="strat-list" role="list">
+      <li class="strat-row rv"><div class="sr-num">전략 01</div><div><h3 class="sr-title"><em>평가자의 머리 위에서</em> 지문을 조망하는 시선</h3><p class="sr-desc">지문을 '풀어야 할 대상'이 아닌 '설계된 인지 구조'로 읽습니다. 출제자의 의도, 논리 연결 강도, 오답 유인 구조를 역설계합니다. 이 시선이 장착되면 불수능에서도 1등급이 고정됩니다.</p><div class="sr-tags"><span class="sr-tag">구조적독해</span><span class="sr-tag">1등급고정</span><span class="sr-tag">출제의도역설계</span></div></div></li>
+      <li class="strat-row rv d1"><div class="sr-num">전략 02</div><div><h3 class="sr-title">국어 1등급이 <em>생기부 서사의 뼈대</em>가 된다</h3><p class="sr-desc">수능 비문학 지문의 핵심 개념을 전공 탐구의 출발점으로 전환합니다. 같은 지문을 두 번 읽습니다 — 한 번은 점수를 위해, 한 번은 세특 탐구의 씨앗으로. 이 습관이 0.1% 생기부를 만듭니다.</p><div class="sr-tags"><span class="sr-tag">비문학세특연계</span><span class="sr-tag">전공탐구설계</span></div></div></li>
+      <li class="strat-row rv d2"><div class="sr-num">전략 03</div><div><h3 class="sr-title"><em>비문학 제재</em>와 전공의 학문적 연계</h3><p class="sr-desc">국어 비문학(경제·철학·과학)을 희망 전공과 연결해 심화 탐구 보고서로 확장합니다. 의문 제기→탐구→근거→결론으로 이어지는 지적 서사가 0.1% 세특을 만듭니다. 아무도 흉내 낼 수 없는 이유가 여기에 있습니다.</p><div class="sr-tags"><span class="sr-tag">전공연계세특</span><span class="sr-tag">심화탐구</span><span class="sr-tag">학술적서사</span></div></div></li>
+      <li class="strat-row rv d3"><div class="sr-num">전략 04</div><div><h3 class="sr-title"><em>모의고사 직후</em> 예상 석차 즉시 발급</h3><p class="sr-desc">성적표를 기다리는 동안 지도생은 이미 예상 석차와 분석 자료를 손에 쥐고 전략을 수정합니다. 경쟁자보다 <strong>2주 빠른 대응</strong> — 이것이 입시를 결정하는 출발점입니다.</p><div class="sr-tags"><span class="sr-tag">즉시발급</span><span class="sr-tag">2주선행</span><span class="sr-tag">데이터기반분석</span></div></div></li>
+      <li class="strat-row rv"><div class="sr-num">전략 05</div><div><h3 class="sr-title"><em>정밀 약점 진단</em>으로 수학·과학 투자 여력 확보</h3><p class="sr-desc">어디서 틀리는지 모르면 어디를 공부해야 할지도 모릅니다. 독자적 지표(독해 사고 오류율, 논리 연결 강도)로 약점을 정확히 짚어 최소 학습으로 최대 효과를 냅니다. 확보된 시간은 수학·과학으로 전환됩니다.</p><div class="sr-tags"><span class="sr-tag">타겟팅학습</span><span class="sr-tag">독자적지표</span><span class="sr-tag">시간자산화</span></div></div></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ═══ [anchor03] SUCCESS + LGU+ pageNo 페이지네이션 ═══ -->
+<div id="success" data-anchor="anchor03" class="section section-dk" style="scroll-margin-top:90px;background:var(--dk2)">
+  <div class="fp-inner">
+    <div class="label label-gold rv">검증된 합격 실적</div>
+    <h2 class="s-h2 s-h2-wh rv">한 명도<br><em>예외 없는</em> 합격</h2>
+    <p class="s-lead s-lead-wh rv">20년간 지도한 학생 전원이 목표를 상향 조정하고, 당초 목표보다 높은 대학에 합격했습니다. 가장 자주 듣는 말 — <em style="color:var(--gold2)">"더 일찍 만났으면 좋았을 텐데."</em></p>
+
+    <!-- pageNo=1 콘텐츠 -->
+    <div id="casePageContent">
+      <div class="case-grid" id="caseGrid">
+        <article class="case-card c1 rv d1">
+          <div class="c-num">합격 사례 · 01</div>
+          <h3 class="c-title">수원 권선고 최초이자 유일<br>서울대 합격 — 법학·행정 계열</h3>
+          <p class="c-body">1년 7개월 지도. <strong>해당 학생이 받은 유일한 사교육</strong>으로 권선고 역사상 최초 서울대 합격이라는 쾌거를 이뤄냈습니다.<br><br>그 학생의 소개로 시작한 권선고 친구는 <strong>연세대 법·행정 계열에 나란히 합격.</strong></p>
+          <div class="c-tags"><span class="c-tag">서울대법행정</span><span class="c-tag">연세대</span><span class="c-tag">권선고</span></div>
+        </article>
+        <article class="case-card c2 rv d2">
+          <div class="c-num">합격 사례 · 02</div>
+          <h3 class="c-title">연세대 의대 합격생<br>다수 배출</h3>
+          <p class="c-body">현재 동수원 병원 재직 의사, 동탄, 테헤란로 원장님 등 <strong>다수의 의대 합격생 배출.</strong> 국어를 우위 과목으로 전환한 체계적 시스템의 결과입니다.</p>
+          <div class="c-tags"><span class="c-tag">연세대의대</span><span class="c-tag">의사배출</span><span class="c-tag">다수합격</span></div>
+        </article>
+        <article class="case-card c3 rv d3">
+          <div class="c-num">합격 실적 · 03</div>
+          <h3 class="c-title">합격률 100%<br>목표 상향 조정 합격</h3>
+          <p class="c-body">국어 하나를 중심에 놓은 체계적인 입시 준비 — <strong>의치한·SKY·인서울</strong>에 걸친 합격률 100%의 실증 기록입니다.</p>
+          <div class="c-tags"><span class="c-tag">합격률100%</span><span class="c-tag">인서울</span><span class="c-tag">SKY의치한</span></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- LGU+ pageNo 페이지네이션 -->
+    <div class="lgu-pagination" aria-label="합격 실적 페이지">
+      <button class="pg-btn active" onclick="urlState.setPage(1)" data-page="1">1</button>
+      <button class="pg-btn" onclick="urlState.setPage(2)" data-page="2">2</button>
+      <button class="pg-btn" onclick="urlState.setPage(3)" data-page="3">3</button>
+      <span class="pg-info">총 20년간 전원 합격 실적</span>
+      <button class="pg-btn" onclick="urlState.setPage(1)">→</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ [anchor04] PROGRAMS + LGU+ tabId 탭 ═══ -->
+<div id="programs" data-anchor="anchor04" class="section section-lt2" style="scroll-margin-top:90px">
+  <div class="fp-inner">
+    <div class="label label-blue rv">체계적인 학습 시스템</div>
+    <h2 class="s-h2 rv">20년 검증 커리큘럼으로<br>국어를 <em>합격의 무기</em>로</h2>
+    <p class="s-lead rv">대치동·분당에서 20년간 다듬어온 커리큘럼 — 국어를 부담이 아닌 합격의 발판으로 전환합니다.</p>
+
+    <!-- LGU+ tabId 탭 네비게이션 -->
+    <nav class="lgu-tab-nav" aria-label="프로그램 탭" role="tablist">
+      <button class="tab-btn active" role="tab" aria-selected="true"  data-tab="tab1" onclick="urlState.setTab('tab1')">내신 국어 1등급</button>
+      <button class="tab-btn"        role="tab" aria-selected="false" data-tab="tab2" onclick="urlState.setTab('tab2')">수능 모의고사 상위 3%</button>
+      <button class="tab-btn"        role="tab" aria-selected="false" data-tab="tab3" onclick="urlState.setTab('tab3')">0.1% 생기부 설계</button>
+    </nav>
+
+    <!-- tab1 패널 -->
+    <div class="tab-panel active" id="tab1" role="tabpanel">
+      <div class="prog-grid">
+        <article class="prog-card pa rv d1">
+          <span class="prog-pill">Program 01 · 내신</span>
+          <h3 class="prog-title">내신 국어<br>1등급 시스템</h3>
+          <p class="prog-body">학교별 출제 경향 분석과 맞춤형 학습으로 내신 1등급을 기본으로 만듭니다.<br><br><strong>학교별 기출 완벽 분석</strong> · 서술형 만점 전략<br>문학·비문학 개념 완성 · 주요 작품 심화 학습</p>
+          <div class="prog-tags"><span class="prog-tag">내신1등급</span><span class="prog-tag">기출분석</span><span class="prog-tag">서술형</span></div>
+        </article>
+        <article class="prog-card pb rv d2" style="border-top-color:var(--gold)">
+          <span class="prog-pill">Program 01-B · 내신 심화</span>
+          <h3 class="prog-title">기말·수행평가<br>만점 전략</h3>
+          <p class="prog-body">학교별 수행평가 유형 분석과 서술형 고득점 전략. <strong>단기 집중으로 등급 반전</strong>의 실증 사례 — 빠른 시간 안에 성적을 끌어올리는 집중 프로그램.</p>
+          <div class="prog-tags"><span class="prog-tag">수행평가</span><span class="prog-tag">서술형만점</span><span class="prog-tag">단기역전</span></div>
+        </article>
+        <article class="prog-card pc rv d3">
+          <span class="prog-pill">Program 01-C · 내신+수능 연계</span>
+          <h3 class="prog-title">내신 지문이<br>수능의 씨앗이 된다</h3>
+          <p class="prog-body">내신 문학·비문학 작품을 수능형 독해 훈련과 동시에 진행합니다. <strong>내신과 수능을 따로 공부하는 낭비를 제거</strong>하는 통합 설계입니다.</p>
+          <div class="prog-tags"><span class="prog-tag">내신수능통합</span><span class="prog-tag">시간효율</span></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- tab2 패널 -->
+    <div class="tab-panel" id="tab2" role="tabpanel">
+      <div class="prog-grid">
+        <article class="prog-card pa rv d1">
+          <span class="prog-pill">Program 02 · 수능</span>
+          <h3 class="prog-title">모의고사 상위<br>3% 진입</h3>
+          <p class="prog-body">체계적인 독해 훈련과 유형별 접근법으로 모의고사 1등급 안정권에 진입합니다.<br><br>독해력 집중 향상 프로그램 · 유형별 문제 해결<br><strong>실전 모의고사 훈련</strong> · 오답 분석 시스템</p>
+          <div class="prog-tags"><span class="prog-tag">수능1등급</span><span class="prog-tag">독해훈련</span><span class="prog-tag">오답분석</span></div>
+        </article>
+        <article class="prog-card pb rv d2">
+          <span class="prog-pill">Program 02-B · 수능 집중</span>
+          <h3 class="prog-title">불수능에서도<br>1등급 고정</h3>
+          <p class="prog-body">출제자의 의도를 역설계하는 구조적 독해 훈련. <strong>2024 수능 국어 1등급 컷 75점 — 지도생 전원 통과.</strong> 어떤 수능이 와도 흔들리지 않는 기반을 만듭니다.</p>
+          <div class="prog-tags"><span class="prog-tag">불수능대응</span><span class="prog-tag">구조독해</span><span class="prog-tag">1등급고정</span></div>
+        </article>
+        <article class="prog-card pc rv d3">
+          <span class="prog-pill">Program 02-C · 수능+세특 연계</span>
+          <h3 class="prog-title">비문학 지문을<br>세특으로 전환</h3>
+          <p class="prog-body">수능 비문학을 풀며 동시에 세특 탐구 주제를 발굴합니다. <strong>같은 지문을 두 번 활용하는</strong> — 합격을 두 배로 당기는 전략입니다.</p>
+          <div class="prog-tags"><span class="prog-tag">수능세특동시</span><span class="prog-tag">탐구주제발굴</span></div>
+        </article>
+      </div>
+    </div>
+
+    <!-- tab3 패널 -->
+    <div class="tab-panel" id="tab3" role="tabpanel">
+      <div class="prog-grid">
+        <article class="prog-card pa rv d1">
+          <span class="prog-pill">Program 03 · 생기부</span>
+          <h3 class="prog-title">0.1% 생기부 — 입시의<br>결정적 변수를 장악하다</h3>
+          <p class="prog-body">학생부종합전형 확대로 생기부는 입시의 핵심 변수가 됐습니다. 명문대 입학사정관이 주목하는 세특 작성법과 독서 활동을 지도합니다.<br><br>전공 연계 독서 포트폴리오 · <strong>세특 고도화 전략</strong><br>학생부 종합 전형 대비 · 지적 서사 3년 설계</p>
+          <div class="prog-tags"><span class="prog-tag">0.1%세특</span><span class="prog-tag">생기부설계</span><span class="prog-tag">학종대비</span></div>
+        </article>
+        <article class="prog-card pb rv d2">
+          <span class="prog-pill">Program 03-B · 세특 집중</span>
+          <h3 class="prog-title">전공 연계<br>탐구 보고서</h3>
+          <p class="prog-body">가설→탐구→반증→결론의 4단 구조로 입학사정관이 '읽고 싶은' 세특을 설계합니다. <strong>권선고 서울대·연세대 합격의 실제 세특 구조</strong>를 기반으로 합니다.</p>
+          <div class="prog-tags"><span class="prog-tag">탐구보고서</span><span class="prog-tag">4단구조</span><span class="prog-tag">합격실증</span></div>
+        </article>
+        <article class="prog-card pc rv d3">
+          <span class="prog-pill">Program 03-C · 3년 설계</span>
+          <h3 class="prog-title">1학년부터<br>3년의 지적 서사</h3>
+          <p class="prog-body">1학년의 질문이 2학년의 탐구로 심화되고, 3학년에서 사회적 함의로 확장되는 <strong>수직 구조 생기부</strong>. 입학사정관이 기억하는 단 한 명이 되는 설계입니다.</p>
+          <div class="prog-tags"><span class="prog-tag">3년설계</span><span class="prog-tag">수직심화</span><span class="prog-tag">지적서사</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ NARRATIVE ═══ -->
+<div id="narrative" class="section section-lt" style="scroll-margin-top:90px">
+  <div class="fp-inner">
+    <div class="narrative-grid">
+      <div>
+        <div class="label label-gold rv">학업적 설계</div>
+        <h2 class="s-h2 rv">기록에서<br><em>증거</em>로</h2>
+        <p class="s-lead rv" style="margin-bottom:28px">'몇 개를 했는가'가 아닌 '어디까지 파고들었는가' — 입학사정관이 보는 것은 활동의 양이 아닙니다. 어떤 문제를 발견하고, 어떻게 파고들었으며, 어디까지 도달했는지 — 지적 여정의 궤적이 담긴 생활기록부가 학생의 잠재력을 온전히 전달합니다.</p>
+      </div>
+      <div class="n-cards">
+        <div class="n-card featured rv">
+          <div class="n-card-tag">Phase 01 — 의문 제기</div>
+          <div class="n-card-ttl">지적 호기심의 출발점</div>
+          <p class="n-card-body">국어 비문학에서 만난 개념을 희망 전공의 문제의식과 연결하는 첫 질문. '왜 이것이 중요한가?'를 스스로 묻는 순간이 0.1% 세특의 출발점입니다.</p>
+        </div>
+        <div class="n-card c-steel rv d1">
+          <div class="n-card-tag">Phase 02 — 탐구 · 검증</div>
+          <div class="n-card-ttl">심화 탐구와 논거 구조화</div>
+          <p class="n-card-body">단순 나열을 탈피. 가설→탐구→반증→결론 4단 구조로 비판적 사고의 과정을 쌓습니다. 입학사정관이 '읽고 싶은' 세특의 핵심입니다.</p>
+        </div>
+        <div class="n-card c-green rv d2">
+          <div class="n-card-tag">Phase 03 — 결론 · 확장</div>
+          <div class="n-card-ttl">수직적 탐구 궤적의 완성</div>
+          <p class="n-card-body">3년의 지적 궤적이 하나의 서사로 완성될 때, 입학사정관은 그 학생을 기억합니다. '기록'이 아닌 '증거'로서의 생활기록부.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ [anchor05] NONMUNHAK + LGU+ sortBaseCd ═══ -->
+<div id="nonmunhak" data-anchor="anchor05" style="scroll-margin-top:90px">
+
+  <div class="nm-banner">
+    <div class="nm-banner-z">
+      <div class="nm-kicker rv">
+        수능 국어 × 생기부 전략
+        <span class="nm-vol">Vol. 2025–2026</span>
+      </div>
+      <h2 class="nm-title rv">
+        비문학이<br>
+        <em>전공을</em><br>
+        <strong>설계한다</strong>
+      </h2>
+      <div class="nm-rule rv"></div>
+      <div class="nm-meta rv">
+        <div class="nm-meta-item"><div class="nm-meta-num"><span>6</span>대</div><div class="nm-meta-label">계열 완전 분석</div></div>
+        <div class="nm-meta-item"><div class="nm-meta-num"><span>5</span>개년</div><div class="nm-meta-label">수능·모의평가 기출</div></div>
+        <div class="nm-meta-item"><div class="nm-meta-num">2021<span>→</span>2025</div><div class="nm-meta-label">학년도 전수 분석</div></div>
+        <div class="nm-meta-item" style="border-right:none"><div class="nm-meta-num"><span>0.1</span>%</div><div class="nm-meta-label">세특 연계 전략</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="intro-strip">
+    <span class="intro-label">핵심 명제</span>
+    <div class="intro-rule"></div>
+    <span class="intro-text">비문학은 전공의 입문 논문이다 — 읽는 순간, 지망 학과의 언어가 들린다</span>
+  </div>
+
+  <!-- TAXONOMY -->
+  <div class="section taxonomy-section" style="scroll-margin-top:90px">
+    <div class="fp-inner">
+      <div class="fw-header">
+        <div>
+          <div class="label label-ghost rv">전략적 독해의 프레임</div>
+          <h3 class="s-h2 rv" style="font-size:clamp(26px,4vw,54px)">수능 지문이<br><em>전공 논문의</em><br>앞 페이지다</h3>
+        </div>
+        <div class="fw-lead rv">수능 비문학 지문은 그 분야의 가장 핵심적인 개념·쟁점을 <strong>최소한의 언어</strong>로 압축합니다. 해당 전공을 지망하는 학생은 같은 지문을 <strong>두 배로</strong> 읽을 수 있습니다 — 한 번은 점수를 위해, 한 번은 세특 탐구의 씨앗으로.</div>
+      </div>
+      <div class="taxonomy-wrap rv">
+        <div class="tx-header"><div class="tx-th">학과 계열</div><div class="tx-th">최빈출 소주제</div><div class="tx-th">핵심 역량</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-med">의·치·약·한</div><div class="tx-dept">의생명 계열</div><div class="tx-dept-sub">Medicine · Pharmacy</div></div><div class="tx-cell"><strong>면역·바이러스</strong>: 항원-항체 반응, PCR 원리, 역전사 효소<br><strong>대사·생리</strong>: 케톤체 에너지, 혈액 응고, 심박출량 조절<br><em>MRI·초음파 물리 기초</em>까지 확장</div><div class="tx-cell">복잡한 인과 연쇄 파악 —<br>원인→기전→결과의 3단 구조 추적</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-cs">IT·반도체</div><div class="tx-dept">컴퓨터공학 계열</div><div class="tx-dept-sub">CS · AI · Semiconductor</div></div><div class="tx-cell"><strong>알고리즘</strong>: 허프만 코딩, 해시 함수, CPU 스케줄링<br><strong>신경망</strong>: 퍼셉트론, RNN·CNN 학습 원리<br><em>TCP/IP, 오류 정정 부호</em> 등 네트워크 원리</div><div class="tx-cell">기술 메커니즘 시각화 —<br>추상 알고리즘을 단계별 흐름으로 재구성</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-biz">상경·통계</div><div class="tx-dept">경영·경제 계열</div><div class="tx-dept-sub">Business · Economics</div></div><div class="tx-cell"><strong>거시경제</strong>: 환율 오버슈팅, 브레턴우즈 체제<br><strong>금융</strong>: BIS 자기자본비율, 파생상품 위험 관리<br><em>베이즈 정리, 내쉬 균형</em> 등 수리 경제</div><div class="tx-cell">수치 해석·논리 추론 —<br>그래프·지표를 정성적 논거로 변환</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-law">법·행정</div><div class="tx-dept">법학·행정 계열</div><div class="tx-dept-sub">Law · Public Admin</div></div><div class="tx-cell"><strong>민법</strong>: 유치권·담보물권, 예약과 본계약 효력<br><strong>공법</strong>: 기속·재량 행위, 행정 입법의 한계<br><em>응보주의 vs 예방주의</em> 형벌 철학</div><div class="tx-cell">정의(定義)의 엄밀성 —<br>개념의 경계를 정확히 구획하는 분석력</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-eng">전자·기계·소재</div><div class="tx-dept">공학 계열</div><div class="tx-dept-sub">Engineering · Materials</div></div><div class="tx-cell"><strong>정밀 기기</strong>: 어라운드 뷰 영상 합성, 자이로 센서<br><strong>광학·소재</strong>: 렌즈 수차 교정, CCD/CMOS 광전 효과<br><em>리튬 이온 배터리 충방전, 박막 증착</em></div><div class="tx-cell">작동 원리 재현 —<br>물리 법칙에서 제품 설계까지의 경로 추적</div></div>
+        <div class="tx-row"><div><div class="tx-badge bd-hum">인문·예술</div><div class="tx-dept">인문·철학 계열</div><div class="tx-dept-sub">Humanities · Arts</div></div><div class="tx-cell"><strong>서양철학</strong>: 법실증주의 vs 자연법, 공리주의 비판<br><strong>미학·인지</strong>: 서사 구조 이론, 인지 심리학<br><em>동서양 사상 비교, 근대 미술 비평</em></div><div class="tx-cell">추상 개념 구체화 —<br>철학 명제를 현실 사례에 적용하는 사유</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACCORDION DEEP DIVES -->
+  <div class="section deepdives">
+    <div class="fp-inner">
+      <div class="label label-ghost rv">계열별 심층 가이드</div>
+      <h3 class="s-h2 rv" style="font-size:clamp(26px,4vw,54px)">지망 학과의<br><em>언어로</em> 읽어라</h3>
+      <div class="acc-list">
+        <div class="acc-item rv" data-color="red">
+          <button class="acc-trigger" aria-expanded="false">
+            <div class="acc-index">01</div>
+            <div><div class="acc-dept">의·치·약·한 및 생명과학</div><div class="acc-sub">Medicine · Pharmacy · Life Science</div></div>
+            <div class="acc-arrow">+</div>
+          </button>
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-body-grid">
+                <div>
+                  <p class="acc-intro">의생명 계열 비문학은 <strong>생물학적 인과 연쇄</strong>를 얼마나 정밀하게 추적할 수 있는가를 묻습니다.</p>
+                  <div class="topic-label">최근 5개년 핵심 소주제</div>
+                  <ul class="topic-list">
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">항원-항체 반응 · PCR 원리</div><div class="topic-desc">단클론 항체 생산, 면역 복합체의 구조, 역전사 PCR의 분자 기전. <em>코로나 이후 빈출도 급등</em></div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">에너지 대사 — 케톤체 · 포도당 조절</div><div class="topic-desc">간에서의 케톤체 합성 경로, 인슐린-글루카곤 피드백 루프. 당뇨·비만 연구와 직결</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">혈액 응고 — 비타민 K 메커니즘</div><div class="topic-desc">응고 인자 활성화 캐스케이드, 항응고제(와파린)의 작용 원리. 약학·한의학 세특의 황금 소재</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">MRI · 초음파 물리 기초</div><div class="topic-desc">수소 핵자기 공명, 경사 자기장 원리, 초음파 반사 계수. 의공학 지망생의 필수 배경지식</div></div></li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="insight-card">
+                    <div class="ic-label">세특 설계 인사이트</div>
+                    <p class="ic-quote">"PCR 지문을 읽은 학생이<br><strong>변이 바이러스 검출 실패</strong>를 탐구 주제로 삼는 순간 —<br>그것이 0.1% 세특의 출발점입니다."</p>
+                    <div class="ic-attr">국어 × 생기부 전략 — 의생명 계열 세특 가이드</div>
+                  </div>
+                  <div class="strat-pill-list" style="margin-top:12px">
+                    <div class="strat-pill"><div class="sp-icon">📌</div><div><div class="sp-title">지문 → 탐구 전환 공식</div><div class="sp-desc">기전 이해 → 예외 사례 발굴 → 최신 연구와 연결</div></div></div>
+                    <div class="strat-pill"><div class="sp-icon">📖</div><div><div class="sp-title">연계 독서 추천</div><div class="sp-desc">『면역에 관하여』(율라 비스), 『이기적 유전자』(도킨스)</div></div></div>
+                    <div class="strat-pill"><div class="sp-icon">🎯</div><div><div class="sp-title">세특 확장 키워드</div><div class="sp-desc">항체 엔지니어링 · mRNA 백신 설계 원리 · 바이오마커</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item rv d1" data-color="blue">
+          <button class="acc-trigger" aria-expanded="false">
+            <div class="acc-index">02</div>
+            <div><div class="acc-dept">컴퓨터공학 · AI · 반도체</div><div class="acc-sub">Computer Science · Semiconductor</div></div>
+            <div class="acc-arrow">+</div>
+          </button>
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-body-grid">
+                <div>
+                  <p class="acc-intro">반도체 취업 열풍 이후 <strong>입학사정관의 관심이 가장 급격히 이동한 영역</strong>입니다.</p>
+                  <div class="topic-label">최근 5개년 핵심 소주제</div>
+                  <ul class="topic-list">
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">데이터 압축 — 허프만 코딩 · 런-렝스</div><div class="topic-desc">최적 접두 코드 생성, 엔트로피와 정보량의 관계. <em>2023학년도 수능 독서 고빈도 출제</em></div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">인공 신경망 — 퍼셉트론 · 역전파</div><div class="topic-desc">가중치 업데이트 수식, XOR 문제와 다층 퍼셉트론의 등장. 딥러닝 세특의 가장 탄탄한 기초</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">네트워크 — TCP/IP · 오류 정정 부호</div><div class="topic-desc">패킷 교환의 가상 회선 방식, 해밍 코드의 패리티 비트 구조. 네트워크 보안과 연계 탁월</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">캐시 메모리 · GPU 병렬 연산</div><div class="topic-desc">캐시 적중률과 응답 시간의 관계, GPU의 SIMD 구조. 반도체 세특의 핵심 소재</div></div></li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="insight-card">
+                    <div class="ic-label">세특 설계 인사이트</div>
+                    <p class="ic-quote">"허프만 코딩을 이해한 학생이<br><strong>삼성 HBM의 데이터 전송 병목</strong>을 탐구 주제로 연결할 때 —<br>입학사정관은 멈춥니다."</p>
+                    <div class="ic-attr">국어 × 생기부 전략 — IT 계열 세특 가이드</div>
+                  </div>
+                  <div class="strat-pill-list" style="margin-top:12px">
+                    <div class="strat-pill"><div class="sp-icon">⚡</div><div><div class="sp-title">반도체 연계 키워드</div><div class="sp-desc">HBM3 · GAA 트랜지스터 · 뉴로모픽 컴퓨팅</div></div></div>
+                    <div class="strat-pill"><div class="sp-icon">📌</div><div><div class="sp-title">탐구 확장 경로</div><div class="sp-desc">알고리즘 기초 → AI 한계 논의 → 차세대 반도체 연결</div></div></div>
+                    <div class="strat-pill"><div class="sp-icon">📖</div><div><div class="sp-title">추천 독서</div><div class="sp-desc">『칩 워』(밀러), 『생각하는 기계』(오레가드)</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item rv d2" data-color="gold">
+          <button class="acc-trigger" aria-expanded="false">
+            <div class="acc-index">03</div>
+            <div><div class="acc-dept">법학 · 행정 계열</div><div class="acc-sub">Law · Public Administration</div></div>
+            <div class="acc-arrow">+</div>
+          </button>
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-body-grid">
+                <div>
+                  <p class="acc-intro">법학·행정 지문은 <strong>개념의 경계</strong>를 정밀하게 구획하는 능력을 요구합니다.</p>
+                  <div class="topic-label">최근 5개년 핵심 소주제</div>
+                  <ul class="topic-list">
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">유치권 · 담보물권 — 민법 기초</div><div class="topic-desc">유치권 성립 요건, 피담보채권과 목적물의 관계. 전세 사기 사태 이후 사회적 맥락 연계 탁월</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">기속·재량 행위 — 행정법 구분</div><div class="topic-desc">행정청 재량의 한계, 일탈·남용의 사법 심사 기준. AI 행정 결정의 재량 문제와 연계 가능</div></div></li>
+                    <li class="topic-item"><div class="topic-dot"></div><div><div class="topic-title">응보주의 vs 예방주의 — 형벌 철학</div><div class="topic-desc">칸트적 응보 vs 공리주의적 예방. 소년법 개정, 디지털 성범죄 처벌 강화 논의와 연결</div></div></li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="insight-card">
+                    <div class="ic-label">세특 설계 인사이트</div>
+                    <p class="ic-quote">"유치권 지문을 읽고<br><strong>전세 사기 피해자 보호 입법</strong> 논의를 분석한 학생의 세특이 —<br>서울대·연세대 법학·행정 계열 면접의 화두가 됐습니다."</p>
+                    <div class="ic-attr">국어 × 생기부 전략 — 법학·행정 계열 합격 사례</div>
+                  </div>
+                  <div class="strat-pill-list" style="margin-top:12px">
+                    <div class="strat-pill"><div class="sp-icon">⚖️</div><div><div class="sp-title">탐구 연계 키워드</div><div class="sp-desc">AI 법인격 논쟁 · 생성형 AI 저작권 · 알고리즘 규제</div></div></div>
+                    <div class="strat-pill"><div class="sp-icon">📖</div><div><div class="sp-title">추천 독서</div><div class="sp-desc">『법의 개념』(하트), 『정의란 무엇인가』(샌델)</div></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MATRIX -->
+  <div class="matrix-section">
+    <div class="matrix-inner">
+      <div class="label label-dk-ghost rv">독해력 핵심 역량 매트릭스</div>
+      <h3 class="s-h2 s-h2-wh rv" style="font-size:clamp(26px,4vw,54px)">계열마다 요구하는<br><em>독해의 근육이 다르다</em></h3>
+      <div class="matrix-grid">
+        <div class="mx-cell rv"><div class="mx-kicker">의생명 계열</div><div class="mx-dept"><em>인과 연쇄</em><br>추적력</div><ul class="mx-points"><li class="mx-pt"><strong>3단 구조 파악:</strong> 원인 → 기전 → 결과의 흐름을 끊지 않고 따라가는 힘</li><li class="mx-pt">피드백 루프, 캐스케이드 반응 등 <strong>다층 인과</strong>를 동시에 처리</li><li class="mx-pt">예외 조건('~이 아닌 경우')에서 흔들리지 않는 조건부 독해</li></ul><div class="mx-insight"><div class="mx-insight-dot"></div>세특 확장: 임상 적용의 한계 탐구</div></div>
+        <div class="mx-cell rv d1"><div class="mx-kicker">IT·반도체 계열</div><div class="mx-dept"><em>메커니즘</em><br>시각화</div><ul class="mx-points"><li class="mx-pt"><strong>알고리즘을 그림으로:</strong> 추상 절차를 단계별 흐름도로 머릿속에서 재구성</li><li class="mx-pt">입력-처리-출력의 블랙박스 구조를 <strong>화이트박스</strong>로 전환하는 독해</li><li class="mx-pt">수식 없이 개념만으로 정확성을 검증하는 논리 추적력</li></ul><div class="mx-insight"><div class="mx-insight-dot"></div>세특 확장: 현실 시스템의 병목 탐구</div></div>
+        <div class="mx-cell rv d2"><div class="mx-kicker">상경·행정 계열</div><div class="mx-dept"><em>개념 경계</em><br>구획력</div><ul class="mx-points"><li class="mx-pt"><strong>유사 개념의 차이:</strong> '점유'와 '소유', '기속'과 '재량'의 선을 정확히 긋는 능력</li><li class="mx-pt">정의(定義) → 요건 → 효과의 3단 법률 구조를 자동으로 감지</li><li class="mx-pt">수치·지표를 <strong>정성적 논거</strong>로 번역하는 경제적 사고</li></ul><div class="mx-insight"><div class="mx-insight-dot"></div>세특 확장: 현실 사례의 법·경제 분석</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5-STEP ROADMAP -->
+  <div id="roadmap" data-anchor="anchor06" class="section roadmap-section" style="scroll-margin-top:90px">
+    <div class="fp-inner">
+      <div class="roadmap-header">
+        <div>
+          <div class="label label-blue rv">0.1% 세특 설계 로드맵</div>
+          <h3 class="s-h2 rv" style="font-size:clamp(26px,4vw,54px)">비문학 지문 한 편이<br><em>합격 세특이 되는</em><br>5단계 여정</h3>
+        </div>
+        <div class="rv"><a href="tel:010-8318-1700" class="btn-red">📞 010-8318-1700</a></div>
+      </div>
+      <div class="flow-steps">
+        <div class="flow-step active rv"><div class="fs-num-wrap"><div class="fs-num">01</div></div><div><div class="fs-phase">Phase 01 — 출발</div><h4 class="fs-title">비문학 지문에서 <em>의문을 채굴</em>한다</h4><p class="fs-body">단순히 읽고 문제를 푸는 것이 아닙니다. '이 메커니즘의 예외는 무엇인가', '현실에서 이 모형이 깨지는 경우는'이라는 질문을 지문 여백에 적는 순간 — 탐구가 시작됩니다. <strong>수능 지문은 전공 논문의 요약본</strong>임을 기억하십시오.</p><div class="fs-tags"><span class="fs-tag">비판적 독해</span><span class="fs-tag">질문 생성</span></div></div></div>
+        <div class="flow-step rv d1"><div class="fs-num-wrap"><div class="fs-num">02</div></div><div><div class="fs-phase">Phase 02 — 연결</div><h4 class="fs-title">지망 전공의 <em>현실 문제와 잇는다</em></h4><p class="fs-body">PCR 원리 → '변이 바이러스 검출 실패 사례'. 오버슈팅 이론 → '2022년 레고랜드 사태'. 지문의 이론이 현실의 실패와 만나는 지점이 탐구 주제의 핵심입니다. <strong>추상이 구체가 되는 순간</strong>, 입학사정관의 눈이 멈춥니다.</p><div class="fs-tags"><span class="fs-tag">전공 연계</span><span class="fs-tag">현실 적용</span></div></div></div>
+        <div class="flow-step rv d2"><div class="fs-num-wrap"><div class="fs-num">03</div></div><div><div class="fs-phase">Phase 03 — 탐구</div><h4 class="fs-title">가설 → 탐구 → 반증 → 결론의 <em>4단 구조</em>로 쌓는다</h4><p class="fs-body">단순 나열이 아닙니다. '이럴 것이다'는 가설, 근거를 탐색하는 과정, 반론을 제기하고 검토하는 단계, 그리고 자신의 결론 — 이 4단이 완성될 때 세특은 <strong>학술 논문의 서사 구조</strong>를 갖춥니다.</p><div class="fs-tags"><span class="fs-tag">논리 구조화</span><span class="fs-tag">비판적 사고</span></div></div></div>
+        <div class="flow-step rv d3"><div class="fs-num-wrap"><div class="fs-num">04</div></div><div><div class="fs-phase">Phase 04 — 확장</div><h4 class="fs-title">3년의 세특이 <em>하나의 지적 서사</em>로 완성된다</h4><p class="fs-body">1학년에서 제기한 질문이 2학년의 탐구로 심화되고, 3학년에서 사회적 함의로 확장되는 수직 구조 — 이것이 입학사정관이 찾는 <strong>'성장의 궤적'</strong>입니다.</p><div class="fs-tags"><span class="fs-tag">서사 일관성</span><span class="fs-tag">수직 심화</span></div></div></div>
+        <div class="flow-step rv"><div class="fs-num-wrap"><div class="fs-num">05</div></div><div><div class="fs-phase">Phase 05 — 완성</div><h4 class="fs-title"><em>국어 1등급 × 0.1% 세특</em> — 두 무기를 동시에</h4><p class="fs-body">국어 1등급이라는 안전망과, 아무도 흉내 낼 수 없는 생기부라는 무기. 이 두 가지를 동시에 준비한 학생이 의치한·SKY 합격 통지서를 받아왔습니다. <strong>20년 경력이 증명한 공식</strong>입니다.</p><div class="fs-tags"><span class="fs-tag">수능 최저 충족</span><span class="fs-tag">학종 완성</span><span class="fs-tag">두 전선 동시</span></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXAM SNAP + LGU+ sortBaseCd -->
+  <div class="exam-snap">
+    <div class="fp-inner">
+      <div class="label label-dk-ghost rv">최근 수능 고난도 지문 스냅샷</div>
+      <h3 class="s-h2 s-h2-wh rv" style="font-size:clamp(26px,4vw,54px)">입학사정관도 읽는<br><em>그 지문들</em></h3>
+
+      <!-- LGU+ sortBaseCd 정렬 컨트롤 -->
+      <div class="lgu-sort-bar rv">
+        <span class="sort-label">정렬</span>
+        <div class="sort-btns">
+          <button class="sort-btn active" data-sort="N" onclick="urlState.setSort('N')">기본순</button>
+          <button class="sort-btn" data-sort="R" onclick="urlState.setSort('R')">최신순</button>
+          <button class="sort-btn" data-sort="S" onclick="urlState.setSort('S')">세특연계순</button>
+        </div>
+        <span class="sort-code" id="sortCodeDisplay">sortBaseCd=<span>N</span></span>
+      </div>
+
+      <div class="snap-grid" id="snapGrid">
+        <article class="snap-card s1 rv" data-year="2022" data-setech="3">
+          <div class="sc-year">2022학년도 수능</div>
+          <h4 class="sc-title">환율의 오버슈팅 · 이자율 평형 이론</h4>
+          <p class="sc-body">단기 환율이 장기 균형값을 초과하는 메커니즘. <strong>경제학과·경영학과 세특의 황금 소재</strong> — 2022년 원화 약세와 연결한 탐구 보고서가 상경 계열 합격에 결정적으로 작용함</p>
+          <div class="sc-tags"><span class="sc-tag">경제학과</span><span class="sc-tag">금융공학</span><span class="sc-tag">세특연계★★★</span></div>
+        </article>
+        <article class="snap-card s2 rv d1" data-year="2023" data-setech="3">
+          <div class="sc-year">2023학년도 수능</div>
+          <h4 class="sc-title">허프만 코딩 · 데이터 압축 알고리즘</h4>
+          <p class="sc-body">최적 접두 코드 생성과 엔트로피 개념. <strong>CS·반도체 계열 세특 최우선 연결 소재</strong> — HBM 데이터 전송 병목 탐구로 확장한 학생 전원 상위권 대학 합격</p>
+          <div class="sc-tags"><span class="sc-tag">컴퓨터공학</span><span class="sc-tag">반도체</span><span class="sc-tag">세특연계★★★</span></div>
+        </article>
+        <article class="snap-card s3 rv d2" data-year="2024" data-setech="3">
+          <div class="sc-year">2024학년도 수능</div>
+          <h4 class="sc-title">혈액 응고 · 비타민 K 메커니즘</h4>
+          <p class="sc-body">응고 인자 활성화 캐스케이드와 항응고제의 작용 원리. <strong>의·치·약학 계열의 핵심 지문</strong> — mRNA 백신과 응고 장애 연결 탐구로 의대 합격에 직접적 기여</p>
+          <div class="sc-tags"><span class="sc-tag">의학과</span><span class="sc-tag">약학과</span><span class="sc-tag">세특연계★★★</span></div>
+        </article>
+        <article class="snap-card s4 rv d3" data-year="2025" data-setech="3">
+          <div class="sc-year">2025학년도 수능</div>
+          <h4 class="sc-title">유치권 · 담보물권 법리</h4>
+          <p class="sc-body">유치권 성립 요건과 법적 효과의 정밀 분석. <strong>법학·행정 계열 세특 최적 소재</strong> — 전세 사기 피해 입법 논의와 연결한 탐구 보고서로 서울대·연세대 합격</p>
+          <div class="sc-tags"><span class="sc-tag">법학과</span><span class="sc-tag">행정학과</span><span class="sc-tag">세특연계★★★</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /nonmunhak -->
+
+<!-- ═══ CLOSING CTA ═══ -->
+<div class="closing-cta">
+  <div class="cc-inner">
+    <div class="cc-eyebrow rv">지금 무료 진단 미팅 신청</div>
+    <h2 class="cc-h2 rv">아이의 시간을<br><em>자산으로</em> 치환하십시오</h2>
+    <p class="cc-body rv">
+      합격은 설계에서 시작됩니다. 수업 전 무료 미팅에서 학생의 현재 위치와 합격 가능성을 정확히 진단해 드립니다.
+      <em>모든 학생을 받지 않습니다. 단, 사고 확장 가능성이 있는 학생은 반드시 받습니다.</em>
+    </p>
+    <div class="cc-btns">
+      <a href="tel:010-8318-1700" class="btn-primary phone-pulse">📞 010-8318-1700 상담 전화</a>
+      <a href="#battle" class="btn-ghost">설계 구조 다시 보기 ↑</a>
+    </div>
+  </div>
+</div>
+
+</main>
+</div><!-- /gnb-shell -->
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div>
+        <div class="foot-hl">
+          국어 1등급은<br>결과다. <em>합격은<br>설계다.</em>
+        </div>
+      </div>
+      <div class="foot-btns">
+        <a href="tel:010-8318-1700" class="btn-primary">📞 010-8318-1700</a>
+        <a href="#battle" class="btn-ghost" style="color:rgba(242,238,230,.4);border-color:rgba(242,238,230,.12)">입시 설계 구조 보기 ↑</a>
+      </div>
+    </div>
+    <div class="foot-div"></div>
+    <div class="foot-bot">
+      <div class="foot-logo">
+        <div class="foot-logo-dot"></div>
+        국어<span style="color:var(--accent)">×</span>생기부 전략
+      </div>
+      <ul class="foot-links">
+        <li><a href="#battle">입시 구조</a></li>
+        <li><a href="#weapons">5가지 경쟁력</a></li>
+        <li><a href="#success">합격 실적</a></li>
+        <li><a href="#programs">프로그램</a></li>
+        <li><a href="#nonmunhak">비문학 전략</a></li>
+      </ul>
+      <div class="foot-copy">
+        대치동·분당 20년 경력 · 지도생 전원 합격<br>
+        Academic Narrative Engineering · 광교 · 010-8318-1700
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   LGU+ URL STATE MANAGER
+   /gnb?path=...&pageNo=1&sortBaseCd=N&tabId=tab1&postParam=anchor01
+   
+   적용 패턴 6가지:
+   1. GNB Shell 래퍼 (gnb-shell + data-path)
+   2. postParam → 섹션 자동 스크롤
+   3. tabId     → 프로그램 탭 전환
+   4. sortBaseCd → 비문학 카드 정렬
+   5. pageNo    → 합격 실적 페이지네이션
+   6. UTM + gclid 트래킹 캡처
+══════════════════════════════════════════════════════════ */
+
+const prefersRM = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $ = s => document.querySelector(s);
+const $$ = (s, ctx = document) => [...ctx.querySelectorAll(s)];
+
+/* ── MODULE 1: LGU+ URL STATE MANAGER ── */
+const urlState = (() => {
+  const params = new URLSearchParams(location.search);
+  
+  const get = (key, def = '') => params.get(key) || def;
+  
+  const set = (key, val) => {
+    params.set(key, val);
+    const newUrl = `${location.pathname}?${params.toString()}${location.hash}`;
+    history.replaceState({}, '', newUrl);
+    updateStateBar();
+  };
+
+  const updateStateBar = () => {
+    const pv = $('#upPostVal'), tv = $('#upTabVal'), sv = $('#upSortVal'), pgv = $('#upPageVal');
+    if (pv) pv.textContent = get('postParam', 'anchor01');
+    if (tv) tv.textContent = get('tabId', 'tab1');
+    if (sv) sv.textContent = get('sortBaseCd', 'N');
+    if (pgv) pgv.textContent = get('pageNo', '1');
+    // has-value 클래스
+    $$('.usb-param').forEach(el => el.classList.remove('has-value'));
+    if (get('postParam')) $('#upPostParam')?.classList.add('has-value');
+    if (get('tabId'))     $('#upTabId')?.classList.add('has-value');
+    if (get('sortBaseCd')) $('#upSort')?.classList.add('has-value');
+    if (get('pageNo') && get('pageNo') !== '1') $('#upPage')?.classList.add('has-value');
+  };
+
+  /* postParam: 섹션 자동 스크롤 */
+  const setPostParam = (anchor) => {
+    set('postParam', anchor);
+    const anchorMap = {
+      anchor01: '#battle', anchor02: '#weapons', anchor03: '#success',
+      anchor04: '#programs', anchor05: '#nonmunhak', anchor06: '#roadmap'
+    };
+    const target = document.querySelector(anchorMap[anchor] || '#battle');
+    if (target) {
+      window.scrollTo({ top: target.getBoundingClientRect().top + scrollY - 90, behavior: prefersRM ? 'auto' : 'smooth' });
+    }
+    // anchor nav active 업데이트
+    $$('.an-item').forEach(a => a.classList.toggle('active', a.dataset.anchor === anchor));
+  };
+
+  /* tabId: 프로그램 탭 전환 */
+  const setTab = (tabId) => {
+    set('tabId', tabId);
+    $$('.tab-panel').forEach(p => p.classList.toggle('active', p.id === tabId));
+    $$('.tab-btn').forEach(b => {
+      const isActive = b.dataset.tab === tabId;
+      b.classList.toggle('active', isActive);
+      b.setAttribute('aria-selected', isActive);
+    });
+  };
+
+  /* sortBaseCd: 스냅 카드 정렬 */
+  const setSort = (code) => {
+    set('sortBaseCd', code);
+    $$('.sort-btn').forEach(b => b.classList.toggle('active', b.dataset.sort === code));
+    const sd = $('#sortCodeDisplay');
+    if (sd) sd.querySelector('span').textContent = code;
+    applySortToSnapGrid(code);
+  };
+
+  const applySortToSnapGrid = (code) => {
+    const grid = $('#snapGrid');
+    if (!grid) return;
+    const cards = [...grid.querySelectorAll('.snap-card')];
+    if (code === 'R') {
+      cards.sort((a, b) => parseInt(b.dataset.year) - parseInt(a.dataset.year));
+    } else if (code === 'S') {
+      cards.sort((a, b) => parseInt(b.dataset.setech) - parseInt(a.dataset.setech));
+    } else {
+      cards.sort((a, b) => parseInt(a.dataset.year) - parseInt(b.dataset.year));
+    }
+    cards.forEach(c => grid.appendChild(c));
+  };
+
+  /* pageNo: 합격 실적 페이지네이션 */
+  const pageData = {
+    1: [
+      { cls:'c1', num:'합격 사례 · 01', title:'수원 권선고 최초이자 유일<br>서울대 합격 — 법학·행정 계열', body:'1년 7개월 지도. <strong>해당 학생이 받은 유일한 사교육</strong>으로 권선고 역사상 최초 서울대 합격이라는 쾌거를 이뤄냈습니다.<br><br>그 학생의 소개로 시작한 권선고 친구는 <strong>연세대 법·행정 계열에 나란히 합격.</strong>', tags:['서울대법행정','연세대','권선고'] },
+      { cls:'c2', num:'합격 사례 · 02', title:'연세대 의대 합격생<br>다수 배출', body:'현재 동수원 병원 재직 의사, 동탄, 테헤란로 원장님 등 <strong>다수의 의대 합격생 배출.</strong> 국어를 우위 과목으로 전환한 체계적 시스템의 결과입니다.', tags:['연세대의대','의사배출','다수합격'] },
+      { cls:'c3', num:'합격 실적 · 03', title:'합격률 100%<br>목표 상향 조정 합격', body:'국어 하나를 중심에 놓은 체계적인 입시 준비 — <strong>의치한·SKY·인서울</strong>에 걸친 합격률 100%의 실증 기록입니다.', tags:['합격률100%','인서울','SKY의치한'] }
+    ],
+    2: [
+      { cls:'c1', num:'합격 사례 · 04', title:'단기 집중 지도로<br>수능 국어 등급 대폭 상승', body:'낮은 등급에서 시작한 학생이 <strong>집중 지도</strong>를 통해 모의고사 1등급에 진입. 수능 본시험에서도 1등급을 유지해 인서울 대학에 합격했습니다.', tags:['단기역전','등급대폭상승','인서울'] },
+      { cls:'c2', num:'합격 사례 · 05', title:'분당 자사고<br>의치한 계열 다수', body:'분당 자사고 재학생 다수 지도 — <strong>의대·치대·한의대</strong> 합격 실적. 내신 관리부터 세특 설계, 수능 최저 충족까지 완전 패키지로 지원했습니다.', tags:['자사고','의치한','분당'] },
+      { cls:'c3', num:'합격 사례 · 06', title:'생기부 단독으로<br>서울 상위 10개 대학 합격', body:'수능 없이 학생부종합전형만으로 도전한 학생 — <strong>0.1% 세특과 탐구 서사</strong>만으로 서울 상위권 대학 합격. 전략적 생기부 설계의 힘을 실증했습니다.', tags:['학종단독','생기부특화','서울상위10'] }
+    ],
+    3: [
+      { cls:'c1', num:'합격 사례 · 07', title:'SKY 3관왕<br>국어 × 세특 완전 설계', body:'같은 해 서울대·연세대·고려대 모두 합격 통보를 받은 학생. <strong>국어 1등급 유지 + 전공 연계 세특</strong>의 이중 전략이 적중했습니다.', tags:['서울대','연세대','고려대'] },
+      { cls:'c2', num:'합격 사례 · 08', title:'대치동→광교<br>20년 경력의 실증', body:'서울 대치동·분당에서 지도한 학생들 중 <strong>의치한·SKY 비율이 70% 이상</strong>. 지금 광교에서 동일한 커리큘럼으로 광교·수원 학생들과 함께합니다.', tags:['대치동','분당','광교'] },
+      { cls:'c3', num:'합격 실적 · 09', title:'무료 미팅 후<br>가능성 판단 사례', body:'무료 진단 미팅에서 "이 학생은 반드시 받습니다"라고 판단한 학생 100% — <strong>실제로 목표 이상의 대학에 합격.</strong> 진단의 정확성이 합격의 시작입니다.', tags:['무료미팅','가능성진단','합격100%'] }
+    ]
+  };
+
+  const setPage = (pageNo) => {
+    set('pageNo', pageNo);
+    const grid = $('#caseGrid');
+    if (!grid) return;
+    const data = pageData[pageNo] || pageData[1];
+    grid.innerHTML = data.map((d, i) => `
+      <article class="case-card ${d.cls} rv on" style="transition-delay:${i*0.1}s">
+        <div class="c-num">${d.num}</div>
+        <h3 class="c-title">${d.title}</h3>
+        <p class="c-body">${d.body}</p>
+        <div class="c-tags">${d.tags.map(t=>`<span class="c-tag">${t}</span>`).join('')}</div>
+      </article>`).join('');
+    $$('.pg-btn[data-page]').forEach(b => b.classList.toggle('active', parseInt(b.dataset.page) === pageNo));
+    $('#upPage').querySelector('.val').textContent = pageNo;
+    params.set('pageNo', pageNo);
+    history.replaceState({}, '', `${location.pathname}?${params.toString()}${location.hash}`);
+  };
+
+  const cycleTab = () => {
+    const tabs = ['tab1','tab2','tab3'];
+    const current = get('tabId','tab1');
+    const next = tabs[(tabs.indexOf(current)+1) % tabs.length];
+    setTab(next);
+  };
+
+  const cycleSort = () => {
+    const sorts = ['N','R','S'];
+    const current = get('sortBaseCd','N');
+    const next = sorts[(sorts.indexOf(current)+1) % sorts.length];
+    setSort(next);
+  };
+
+  /* 초기화: URL params 읽어서 상태 복원 */
+  const init = () => {
+    updateStateBar();
+    const tabId = get('tabId', 'tab1');
+    setTab(tabId);
+    const sort = get('sortBaseCd', 'N');
+    setSort(sort);
+    const pageNo = parseInt(get('pageNo', '1'));
+    if (pageNo > 1) setPage(pageNo);
+    // postParam: 로드 후 자동 스크롤
+    const postParam = get('postParam', '');
+    if (postParam) {
+      setTimeout(() => setPostParam(postParam), 800);
+    }
+  };
+
+  return { get, set, setPostParam, setTab, setSort, applySortToSnapGrid, setPage, cycleTab, cycleSort, init, updateStateBar };
+})();
+
+/* ── MODULE 2: LGU+ UTM + gclid 트래킹 캡처 ── */
+const utmTracker = (() => {
+  const UTM_KEYS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gad_source','gad_campaignid'];
+  
+  const capture = () => {
+    const params = new URLSearchParams(location.search);
+    const captured = {};
+    UTM_KEYS.forEach(k => { if (params.get(k)) captured[k] = params.get(k); });
+    if (Object.keys(captured).length > 0) {
+      sessionStorage.setItem('__utm_data', JSON.stringify(captured));
+      sessionStorage.setItem('__utm_ts', Date.now());
+    }
+    return captured;
+  };
+
+  const get = () => {
+    try { return JSON.parse(sessionStorage.getItem('__utm_data') || '{}'); } catch { return {}; }
+  };
+
+  /* GA4 이벤트 전송 (pseudo — 실서비스에서 gtag() 호출) */
+  const fireEvent = (eventName, params = {}) => {
+    const utmData = get();
+    const payload = { event: eventName, ...utmData, ...params, page_path: location.pathname };
+    // 실서비스: gtag('event', eventName, payload);
+    console.log('[UTM EVENT]', payload);
+  };
+
+  /* 전화 클릭 추적 */
+  document.addEventListener('click', e => {
+    if (e.target.closest('a[href^="tel:"]')) {
+      fireEvent('phone_click', { label: 'cta_phone', source_section: getCurrentAnchor() });
+    }
+  });
+
+  const getCurrentAnchor = () => {
+    const sections = ['battle','weapons','success','programs','nonmunhak','roadmap'];
+    for (const id of sections) {
+      const el = document.getElementById(id);
+      if (el) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.5 && rect.bottom > 0) return id;
+      }
+    }
+    return 'hero';
+  };
+
+  return { capture, get, fireEvent };
+})();
+
+/* ── MODULE 3: LGU+ 앵커 내비게이션 + 스크롤 추적 ── */
+const anchorNav = (() => {
+  const update = () => {
+    const sections = $$('[data-anchor]');
+    sections.forEach(sec => {
+      const rect = sec.getBoundingClientRect();
+      if (rect.top < 120 && rect.bottom > 0) {
+        const anchor = sec.dataset.anchor;
+        $$('.an-item').forEach(a => a.classList.toggle('active', a.dataset.anchor === anchor));
+        // URL에 postParam 반영
+        const params = new URLSearchParams(location.search);
+        if (params.get('postParam') !== anchor) {
+          params.set('postParam', anchor);
+          history.replaceState({}, '', `${location.pathname}?${params.toString()}${location.hash}`);
+          const pv = document.getElementById('upPostVal');
+          if (pv) pv.textContent = anchor;
+        }
+      }
+    });
+  };
+  window.addEventListener('scroll', update, { passive: true });
+  return { update };
+})();
+
+/* ── 기존 APEX 기능들 ── */
+
+/* 1. LOADER */
+(()=>{
+  const bar = $('#ldrBar'), count = $('#ldrCount'), loader = $('#loader');
+  if (!bar || !loader) return;
+  let p = 0;
+  const step = () => {
+    p += Math.random() * 14 + 4;
+    if (p >= 100) {
+      p = 100; bar.style.width = '100%'; count.textContent = '100%';
+      setTimeout(() => {
+        loader.classList.add('hide');
+        loader.addEventListener('animationend', () => {
+          loader.style.display = 'none';
+          startCounters();
+          utmTracker.capture();
+          urlState.init();
+        }, { once: true });
+      }, 280);
+      return;
+    }
+    bar.style.width = p + '%';
+    count.textContent = Math.round(p) + '%';
+    setTimeout(step, 60 + Math.random() * 80);
+  };
+  step();
+})();
+
+/* 2. SCROLL PROGRESS */
+(()=>{
+  const bar = $('#progress-bar');
+  if (!bar) return;
+  const update = () => {
+    const h = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = h > 0 ? (scrollY / h * 100) + '%' : '0%';
+  };
+  addEventListener('scroll', update, { passive: true });
+  update();
+})();
+
+/* 3. CURSOR */
+(()=>{
+  if ('ontouchstart' in window || navigator.maxTouchPoints > 0) return;
+  const dot = $('#cur-dot'), ring = $('#cur-ring');
+  if (!dot || !ring) return;
+  let mx = innerWidth/2, my = innerHeight/2, rx = mx, ry = my;
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+  (function loop() {
+    dot.style.left = mx + 'px'; dot.style.top = my + 'px';
+    rx += (mx - rx) * .12; ry += (my - ry) * .12;
+    ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+    requestAnimationFrame(loop);
+  })();
+  $$('a,button,.btn-primary,.btn-ghost,.btn-red,.stat-box,.case-card,.prog-card,.strat-row,.acc-trigger,.snap-card,.flow-step,.mx-cell,.tab-btn,.sort-btn,.pg-btn,.an-item').forEach(el => {
+    el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+    el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+  });
+})();
+
+/* 4. MOBILE MENU */
+(()=>{
+  const btn = $('#menuBtn'), menu = $('#mobileMenu');
+  if (!btn || !menu) return;
+  let open = false;
+  const toggle = () => {
+    open = !open;
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+    open ? (menu.removeAttribute('hidden'), menu.classList.add('open'))
+         : (menu.classList.remove('open'), setTimeout(() => menu.setAttribute('hidden',''), 400));
+    document.body.style.overflow = open ? 'hidden' : '';
+  };
+  btn.addEventListener('click', toggle);
+  $$('a', menu).forEach(a => a.addEventListener('click', () => { if (open) toggle(); }));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && open) toggle(); });
+})();
+
+/* 5. SCROLL REVEAL */
+(()=>{
+  if (prefersRM) { $$('.rv').forEach(el => el.classList.add('on')); return; }
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); obs.unobserve(e.target); } });
+  }, { threshold: .08, rootMargin: '0px 0px -28px 0px' });
+  $$('.rv').forEach(el => obs.observe(el));
+})();
+
+/* 6. COUNTERS */
+function startCounters() {
+  if (prefersRM) return;
+  $$('[data-counter]').forEach(el => {
+    const target = parseInt(el.getAttribute('data-counter'), 10);
+    const start = performance.now(), dur = 1600;
+    (function update(now) {
+      const p = Math.min((now - start) / dur, 1), e = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(e * target);
+      if (p < 1) requestAnimationFrame(update);
+      else el.textContent = target;
+    })(performance.now());
+  });
+}
+
+/* 7. ACCORDION */
+(()=>{
+  $$('.acc-trigger').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.acc-item'), isOpen = item.classList.contains('open');
+      $$('.acc-item.open').forEach(el => {
+        el.classList.remove('open');
+        el.querySelector('.acc-trigger').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    });
+  });
+})();
+
+/* 8. SMOOTH SCROLL */
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href^="#"]');
+  if (!a) return;
+  const href = a.getAttribute('href');
+  if (href === '#') return;
+  const tgt = document.querySelector(href);
+  if (tgt) { e.preventDefault(); window.scrollTo({ top: tgt.getBoundingClientRect().top + scrollY - 90, behavior: prefersRM ? 'auto' : 'smooth' }); }
+  // postParam 업데이트
+  const anchor = a.dataset.anchor || '';
+  if (anchor) urlState.setPostParam(anchor);
+});
+
+/* 9. HEADER NAV ACTIVE */
+(()=>{
+  const sections = $$('[id]').filter(el => ['battle','weapons','success','programs','nonmunhak','roadmap'].includes(el.id));
+  const navLinks = $$('.h-nav a');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      navLinks.forEach(a => a.toggleAttribute('aria-current', a.getAttribute('href') === '#' + e.target.id));
+    });
+  }, { threshold: .28 });
+  sections.forEach(s => obs.observe(s));
+})();
+
+/* 10. LGU+ 앵커 탭 클릭 → postParam 설정 */
+$$('.an-item').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const anchor = a.dataset.anchor;
+    urlState.setPostParam(anchor);
+  });
+});
+</script>
+</body>
+</html>
